@@ -1,0 +1,318 @@
+html, body	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^html, body {$/;"	function	line:17
+.desktop-nav	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav {$/;"	function	line:26
+.desktop-nav.black	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav.black {$/;"	function	line:40
+.desktop-nav.logo img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav.logo img {$/;"	function	line:46
+.desktop-nav.black .logo img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav.black .logo img {$/;"	function	line:52
+.desktop-nav.black li a	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav.black li a {$/;"	function	line:56
+.desktop-nav ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav ul {$/;"	function	line:60
+.desktop-nav ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav ul li {$/;"	function	line:67
+.desktop-nav ul li a	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.desktop-nav ul li a {$/;"	function	line:72
+.desktop-nav ul li a:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .desktop-nav ul li a:hover {$/;"	function	line:81
+.active	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.active {$/;"	function	line:88
+.menu-icon	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.menu-icon {$/;"	function	line:97
+.mobile-nav.black	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav.black {$/;"	function	line:113
+.mobile-nav.black ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav.black ul {$/;"	function	line:119
+.mobile-nav.logo img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav.logo img {$/;"	function	line:127
+.mobile-nav.black .logo img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav.black .logo img {$/;"	function	line:133
+.mobile-nav.black li a	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav.black li a {$/;"	function	line:137
+.toggle	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.toggle {$/;"	function	line:142
+.mobile-nav	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav {$/;"	function	line:152
+.mobile-nav ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav ul {$/;"	function	line:161
+.mobile-nav ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav ul li {$/;"	function	line:168
+.mobile-nav ul li a	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-nav ul li a {$/;"	function	line:174
+#particles-js	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#particles-js {$/;"	function	line:182
+.flex	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.flex {$/;"	function	line:190
+.hero-text	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.hero-text {$/;"	function	line:197
+div#hero-text	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  div#hero-text {$/;"	function	line:209
+.highlight	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.highlight {$/;"	function	line:213
+.hero-text h3	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.hero-text h3 {$/;"	function	line:218
+.hero-text h2	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.hero-text h2 {$/;"	function	line:224
+.hero-text a	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.hero-text a {$/;"	function	line:229
+.btn	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.btn {$/;"	function	line:234
+.portfolio-button	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio-button {$/;"	function	line:240
+.portfolio-button:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio-button:hover {$/;"	function	line:246
+.fa-angle-right	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.fa-angle-right {$/;"	function	line:252
+.portfolio-button .fa-angle-right:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio-button .fa-angle-right:hover{$/;"	function	line:257
+.block	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.block{$/;"	function	line:276
+.left-p	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.left-p{$/;"	function	line:282
+.right-p	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.right-p{$/;"	function	line:286
+.skills-section	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section {$/;"	function	line:291
+.skills-section table	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section table {$/;"	function	line:296
+.skills-section table td	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .skills-section table td {$/;"	function	line:302
+.skills-section table .right-data	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section table .right-data {$/;"	function	line:308
+.skills-section table .left-data	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section table .left-data {$/;"	function	line:313
+.skills-section ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section ul {$/;"	function	line:318
+.skills-section ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-section ul li {$/;"	function	line:323
+.fa-paint-brush	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.fa-paint-brush {$/;"	function	line:328
+.fa-code	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.fa-code {$/;"	function	line:334
+.skills-heading	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-heading {$/;"	function	line:341
+.skill-content	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skill-content {$/;"	function	line:348
+.skill-description	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skill-description {$/;"	function	line:352
+.development-side	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.development-side {$/;"	function	line:358
+// .development-side:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^\/\/ .development-side:hover {$/;"	function	line:363
+.design-side	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.design-side {$/;"	function	line:368
+// .design-side:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^\/\/ .design-side:hover {$/;"	function	line:373
+.split-pane ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane ul {$/;"	function	line:378
+.split-pane ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane ul li{$/;"	function	line:382
+.split-pane p	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane p {$/;"	function	line:388
+.split-pane	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane {$/;"	function	line:394
+@media(min-width: 500px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media(min-width: 500px) {$/;"	function	line:407
+.split-pane	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  .split-pane {$/;"	function	line:408
+.split-pane > div	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane > div {$/;"	function	line:413
+.split-pane > div .text-content	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane > div .text-content {$/;"	function	line:421
+.split-pane > div .text-content .big	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane > div .text-content .big {$/;"	function	line:427
+.split-pane > div img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane > div img {$/;"	function	line:430
+@media (max-width: 500px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media (max-width: 500px) {$/;"	function	line:433
+.split-pane > div img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  .split-pane > div img {$/;"	function	line:434
+.split-pane button, .split-pane a.button	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane button, .split-pane a.button {$/;"	function	line:438
+.split-pane button:hover, .split-pane a.button:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.split-pane button:hover, .split-pane a.button:hover {$/;"	function	line:457
+.design-side.split-pane button:hover, .split-pane a.button:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.design-side.split-pane button:hover, .split-pane a.button:hover {$/;"	function	line:464
+.development-side.split-pane button:hover, .split-pane a.button:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.development-side.split-pane button:hover, .split-pane a.button:hover {$/;"	function	line:467
+#split-pane-or	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#split-pane-or {$/;"	function	line:471
+#split-pane-or h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#split-pane-or h1 {$/;"	function	line:483
+@media (max-width: 925px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media (max-width: 925px) {$/;"	function	line:489
+#split-pane-or	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or {$/;"	function	line:490
+#split-pane-or h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or h1 {$/;"	function	line:494
+#split-pane-or > div img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#split-pane-or > div img {$/;"	function	line:501
+@media (max-width: 500px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media (max-width: 500px) {$/;"	function	line:504
+#split-pane-or	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or {$/;"	function	line:505
+#split-pane-or h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or h1{$/;"	function	line:510
+#split-pane-or > div img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or > div img {$/;"	function	line:514
+@media(min-width: 500px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media(min-width: 500px) {$/;"	function	line:518
+#split-pane-or	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #split-pane-or {$/;"	function	line:519
+// #split-pane-or h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  \/\/ #split-pane-or h1{$/;"	function	line:524
+.big	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.big {$/;"	function	line:528
+#slogan	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#slogan {$/;"	function	line:532
+@media(min-width: 500px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media(min-width: 500px) {$/;"	function	line:543
+#slogan	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^  #slogan {$/;"	function	line:544
+#slogan img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^#slogan img {$/;"	function	line:549
+.bold	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.bold {$/;"	function	line:552
+.big	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.big {$/;"	function	line:555
+@media (max-width: 900px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media (max-width: 900px) {$/;"	function	line:562
+body	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^    body {$/;"	function	line:563
+.my-work	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.my-work {$/;"	function	line:574
+.my-work h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.my-work h1 {$/;"	function	line:584
+.bottom-border	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.bottom-border {$/;"	function	line:592
+.portfolio	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio {$/;"	function	line:601
+.portfolio ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul {$/;"	function	line:606
+.portfolio ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul li {$/;"	function	line:615
+.portfolio ul:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul:before {$/;"	function	line:624
+.portfolio ul:hover:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul:hover:before {$/;"	function	line:639
+.portfolio ul:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul:after {$/;"	function	line:645
+.portfolio ul:hover:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul:hover:after {$/;"	function	line:660
+.portfolio ul li:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul li:hover {$/;"	function	line:665
+.portfolio ul li.active	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio ul li.active {$/;"	function	line:671
+.box	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box{$/;"	function	line:676
+.box:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:before,$/;"	function	line:682
+.box:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:after{$/;"	function	line:683
+.box:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:after{$/;"	function	line:693
+.box:hover:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:hover:before,$/;"	function	line:699
+.box:hover:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:hover:after{$/;"	function	line:700
+.box img	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box img{$/;"	function	line:704
+.box .box-content	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .box-content{$/;"	function	line:708
+.box:hover .box-content	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:hover .box-content{ opacity: 1; }$/;"	function	line:719
+.box .box-content:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .box-content:before,$/;"	function	line:720
+.box .box-content:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .box-content:after{$/;"	function	line:721
+.box .box-content:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .box-content:before{ width: 0; }$/;"	function	line:733
+.box .box-content:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .box-content:after{ height: 0; }$/;"	function	line:734
+.box:hover .box-content:before	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:hover .box-content:before{$/;"	function	line:735
+.box:hover .box-content:after	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box:hover .box-content:after{$/;"	function	line:741
+.box .title	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .title{$/;"	function	line:747
+.box .post	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .post{$/;"	function	line:755
+.box .btn	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .btn {$/;"	function	line:763
+.box .btn:hover	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box .btn:hover {$/;"	function	line:774
+@media only screen and (max-width:990px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media only screen and (max-width:990px){$/;"	function	line:778
+.box	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^    .box{ margin-bottom: 30px; }$/;"	function	line:779
+.container .box	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.container .box {$/;"	function	line:783
+.websites	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.websites {$/;"	function	line:797
+.animations	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.animations {$/;"	function	line:804
+.videos	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.videos {$/;"	function	line:809
+.games	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.games {$/;"	function	line:814
+.apps	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.apps {$/;"	function	line:819
+.mobile-portfolio	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-portfolio {$/;"	function	line:823
+.my-story	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.my-story {$/;"	function	line:831
+.my-story h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.my-story h1 {$/;"	function	line:835
+.invalid-feedback	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.invalid-feedback {$/;"	function	line:846
+.contact-section h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.contact-section h1 {$/;"	function	line:850
+footer	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^footer {$/;"	function	line:859
+@media(max-width: 768px)	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^@media(max-width: 768px) {$/;"	function	line:869
+.box	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.box {$/;"	function	line:872
+.skills-heading	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.skills-heading {$/;"	function	line:877
+.portfolio	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.portfolio {$/;"	function	line:881
+.mobile-portfolio	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^.mobile-portfolio {$/;"	function	line:885
+.toggle	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .toggle {$/;"	function	line:889
+.mobile-nav	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .mobile-nav {$/;"	function	line:893
+.mobile-nav ul	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .mobile-nav ul {$/;"	function	line:899
+.mobile-nav ul li	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .mobile-nav ul li {$/;"	function	line:904
+.desktop-nav	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .desktop-nav {$/;"	function	line:908
+.mobile-nav ul.expand	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .mobile-nav ul.expand{$/;"	function	line:912
+.hero-text	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .hero-text {$/;"	function	line:917
+.hero-text h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .hero-text h1 {$/;"	function	line:922
+.hero-text h2	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .hero-text h2 {$/;"	function	line:926
+.hero-text h3	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .hero-text h3 {$/;"	function	line:930
+.hero-text .btn	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .hero-text .btn {$/;"	function	line:933
+// .my-work h1	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ \/\/ .my-work h1 {$/;"	function	line:939
+.bottom-border	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ .bottom-border {$/;"	function	line:945
+#particles-js	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/resources/assets/sass/app.scss	/^ #particles-js {$/;"	function	line:950
+ErrorHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^class ErrorHandler$/;"	class	line:49
+levels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $levels = array($/;"	variable	line:52
+levels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $levels = array($/;"	variable	line:52
+loggers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $loggers = array($/;"	variable	line:70
+loggers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $loggers = array($/;"	variable	line:70
+thrownErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $thrownErrors = 0x1FFF; \/\/ E_ALL - E_DEPRECATED - E_USER_DEPRECATED$/;"	variable	line:88
+thrownErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $thrownErrors = 0x1FFF; \/\/ E_ALL - E_DEPRECATED - E_USER_DEPRECATED$/;"	variable	line:88
+scopedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $scopedErrors = 0x1FFF; \/\/ E_ALL - E_DEPRECATED - E_USER_DEPRECATED$/;"	variable	line:89
+scopedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $scopedErrors = 0x1FFF; \/\/ E_ALL - E_DEPRECATED - E_USER_DEPRECATED$/;"	variable	line:89
+tracedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $tracedErrors = 0x77FB; \/\/ E_ALL - E_STRICT - E_PARSE$/;"	variable	line:90
+tracedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $tracedErrors = 0x77FB; \/\/ E_ALL - E_STRICT - E_PARSE$/;"	variable	line:90
+screamedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $screamedErrors = 0x55; \/\/ E_ERROR + E_CORE_ERROR + E_COMPILE_ERROR + E_PARSE$/;"	variable	line:91
+screamedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $screamedErrors = 0x55; \/\/ E_ERROR + E_CORE_ERROR + E_COMPILE_ERROR + E_PARSE$/;"	variable	line:91
+loggedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $loggedErrors = 0;$/;"	variable	line:92
+loggedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $loggedErrors = 0;$/;"	variable	line:92
+traceReflector	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $traceReflector;$/;"	variable	line:93
+isRecursive	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $isRecursive = 0;$/;"	variable	line:95
+isRecursive	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $isRecursive = 0;$/;"	variable	line:95
+isRoot	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $isRoot = false;$/;"	variable	line:96
+isRoot	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $isRoot = false;$/;"	variable	line:96
+exceptionHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $exceptionHandler;$/;"	variable	line:97
+bootstrappingLogger	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private $bootstrappingLogger;$/;"	variable	line:98
+reservedMemory	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $reservedMemory;$/;"	variable	line:100
+stackedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $stackedErrors = array();$/;"	variable	line:101
+stackedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $stackedErrors = array();$/;"	variable	line:101
+stackedErrorLevels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $stackedErrorLevels = array();$/;"	variable	line:102
+stackedErrorLevels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $stackedErrorLevels = array();$/;"	variable	line:102
+toStringException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $toStringException = null;$/;"	variable	line:103
+toStringException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $toStringException = null;$/;"	variable	line:103
+silencedErrorCache	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $silencedErrorCache = array();$/;"	variable	line:104
+silencedErrorCache	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $silencedErrorCache = array();$/;"	variable	line:104
+silencedErrorCount	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $silencedErrorCount = 0;$/;"	variable	line:105
+silencedErrorCount	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $silencedErrorCount = 0;$/;"	variable	line:105
+exitCode	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $exitCode = 0;$/;"	variable	line:106
+exitCode	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private static $exitCode = 0;$/;"	variable	line:106
+register	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function register(self $handler = null, $replace = true)$/;"	function	line:116
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function register(self $handler = null, $replace = true)$/;"	variable	line:116
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handler = new static();$/;"	variable	line:124
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        if (null === $prev = set_error_handler(array($handler, 'handleError'))) {$/;"	variable	line:127
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handler = $prev[0];$/;"	variable	line:135
+replace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $replace = false;$/;"	variable	line:136
+handlerIsRegistered	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handlerIsRegistered = is_array($prev) && $handler === $prev[0];$/;"	variable	line:140
+handlerIsRegistered	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handlerIsRegistered = true;$/;"	variable	line:142
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $handler = $prev[0];$/;"	variable	line:147
+p	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $p = $prev[0]->setExceptionHandler(null);$/;"	variable	line:150
+__construct	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function __construct(BufferingLogger $bootstrappingLogger = null)$/;"	function	line:163
+bootstrappingLogger	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function __construct(BufferingLogger $bootstrappingLogger = null)$/;"	variable	line:163
+bootstrappingLogger	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $this->bootstrappingLogger = $bootstrappingLogger;$/;"	variable	line:166
+traceReflector	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->traceReflector = new \\ReflectionProperty('Exception', 'trace');$/;"	variable	line:169
+setDefaultLogger	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function setDefaultLogger(LoggerInterface $logger, $levels = E_ALL, $replace = false)$/;"	function	line:180
+levels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function setDefaultLogger(LoggerInterface $logger, $levels = E_ALL, $replace = false)$/;"	variable	line:180
+loggers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $loggers = array();$/;"	variable	line:182
+type	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            foreach ($levels as $type => $logLevel) {$/;"	variable	line:185
+levels	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $levels = E_ALL;$/;"	variable	line:192
+type	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            foreach ($this->loggers as $type => $log) {$/;"	variable	line:194
+setLoggers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function setLoggers(array $loggers)$/;"	function	line:214
+prevLogged	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prevLogged = $this->loggedErrors;$/;"	variable	line:216
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->loggers;$/;"	variable	line:217
+flush	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $flush = array();$/;"	variable	line:218
+type	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        foreach ($loggers as $type => $log) {$/;"	variable	line:220
+log	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $log = array($log);$/;"	variable	line:225
+type	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $type = $log[2]['exception'] instanceof \\ErrorException ? $log[2]['exception']->getSeverity() : E_ERROR;$/;"	variable	line:246
+setExceptionHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function setExceptionHandler(callable $handler = null)$/;"	function	line:265
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function setExceptionHandler(callable $handler = null)$/;"	variable	line:265
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->exceptionHandler;$/;"	variable	line:267
+exceptionHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->exceptionHandler = $handler;$/;"	variable	line:268
+throwAt	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function throwAt($levels, $replace = false)$/;"	function	line:281
+replace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function throwAt($levels, $replace = false)$/;"	variable	line:281
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->thrownErrors;$/;"	variable	line:283
+thrownErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->thrownErrors = ($levels | E_RECOVERABLE_ERROR | E_USER_ERROR) & ~E_USER_DEPRECATED & ~E_DEPRECATED;$/;"	variable	line:284
+scopeAt	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function scopeAt($levels, $replace = false)$/;"	function	line:301
+replace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function scopeAt($levels, $replace = false)$/;"	variable	line:301
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->scopedErrors;$/;"	variable	line:303
+scopedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->scopedErrors = (int) $levels;$/;"	variable	line:304
+traceAt	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function traceAt($levels, $replace = false)$/;"	function	line:320
+replace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function traceAt($levels, $replace = false)$/;"	variable	line:320
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->tracedErrors;$/;"	variable	line:322
+tracedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->tracedErrors = (int) $levels;$/;"	variable	line:323
+screamAt	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function screamAt($levels, $replace = false)$/;"	function	line:339
+replace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function screamAt($levels, $replace = false)$/;"	variable	line:339
+prev	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $prev = $this->screamedErrors;$/;"	variable	line:341
+screamedErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->screamedErrors = (int) $levels;$/;"	variable	line:342
+reRegister	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private function reRegister($prev)$/;"	function	line:353
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handler = set_error_handler('var_dump');$/;"	variable	line:356
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handler = is_array($handler) ? $handler[0] : null;$/;"	variable	line:357
+handleError	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function handleError($type, $message, $file, $line)$/;"	function	line:384
+level	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $level = error_reporting() | E_RECOVERABLE_ERROR | E_USER_ERROR | E_DEPRECATED | E_USER_DEPRECATED;$/;"	variable	line:388
+log	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $log = $this->loggedErrors & $type;$/;"	variable	line:389
+throw	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $throw = $this->thrownErrors & $type & $level;$/;"	variable	line:390
+scope	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $scope = $this->scopedErrors & $type;$/;"	variable	line:396
+numArgs	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        if (4 < $numArgs = func_num_args()) {$/;"	variable	line:398
+context	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $context = $scope ? (func_get_arg(4) ?: array()) : array();$/;"	variable	line:399
+backtrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $backtrace = 5 < $numArgs ? func_get_arg(5) : null; \/\/ defined on HHVM$/;"	variable	line:400
+context	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $context = array();$/;"	variable	line:402
+backtrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $backtrace = null;$/;"	variable	line:403
+e	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $e = $context;                  \/\/ Whatever the signature of the method,$/;"	variable	line:407
+context	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $context = $e;$/;"	variable	line:409
+logMessage	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $logMessage = $this->levels[$type].': '.$message;$/;"	variable	line:421
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $errorAsException = self::$toStringException;$/;"	variable	line:424
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $lightTrace = $this->tracedErrors & $type ? $this->cleanTrace(debug_backtrace(DEBUG_BACKTRACE_IGNORE_ARGS, 3), $type, $file, $line, false) : array();$/;"	variable	line:428
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $errorAsException = new SilencedErrorContext($type, $file, $line, $lightTrace);$/;"	variable	line:429
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $lightTrace = null;$/;"	variable	line:431
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $errorAsException = self::$silencedErrorCache[$id][$message];$/;"	variable	line:432
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $lightTrace = array();$/;"	variable	line:435
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $errorAsException = null;$/;"	variable	line:436
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                self::$silencedErrorCache = $lightTrace = array();$/;"	variable	line:440
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $errorAsException = new ContextErrorException($logMessage, 0, $type, $file, $line, $context);$/;"	variable	line:451
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $errorAsException = new \\ErrorException($logMessage, 0, $type, $file, $line);$/;"	variable	line:453
+arguments	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            \/\/ Clean the trace by removing function arguments and the first frames added by the error handler itself.$/;"	function	line:456
+backtrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $backtrace = $backtrace ?: $errorAsException->getTrace();$/;"	variable	line:458
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $lightTrace = $this->cleanTrace($backtrace, $type, $file, $line, $throw);$/;"	variable	line:459
+errorAsException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                                    $errorAsException = $e;$/;"	variable	line:486
+log	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $log = 0;$/;"	variable	line:510
+isRecursive	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $this->isRecursive = true;$/;"	variable	line:520
+level	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $level = ($type & $level) ? $this->loggers[$type][1] : LogLevel::DEBUG;$/;"	variable	line:521
+isRecursive	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $this->isRecursive = false;$/;"	variable	line:524
+handleException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function handleException($exception, array $error = null)$/;"	function	line:539
+error	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public function handleException($exception, array $error = null)$/;"	variable	line:539
+exception	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $exception = new FatalThrowableError($exception);$/;"	variable	line:545
+type	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $type = $exception instanceof FatalErrorException ? $exception->getSeverity() : E_ERROR;$/;"	variable	line:547
+handlerException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $handlerException = null;$/;"	variable	line:548
+error	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                    $error = array($/;"	variable	line:553
+message	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                        'message' => $message = $exception->getMessage(),$/;"	variable	line:555
+message	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                    $message = 'Fatal '.$exception->getMessage();$/;"	variable	line:560
+message	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $message = 'Uncaught '.$exception->getMessage();$/;"	variable	line:563
+message	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $message = 'Uncaught Exception: '.$exception->getMessage();$/;"	variable	line:565
+exception	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                    $exception = $e;$/;"	variable	line:578
+handlerException	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handlerException = $handlerException ?: $exception;$/;"	variable	line:587
+exceptionHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $this->exceptionHandler = null;$/;"	variable	line:591
+for	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^     * Shutdown registered function for handling PHP fatal errors.$/;"	function	line:600
+handleFatalError	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function handleFatalError(array $error = null)$/;"	function	line:606
+error	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function handleFatalError(array $error = null)$/;"	variable	line:606
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $handler = self::$reservedMemory = null;$/;"	variable	line:612
+handlers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $handlers = array();$/;"	variable	line:613
+previousHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $previousHandler = null;$/;"	variable	line:614
+sameHandlerLimit	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $sameHandlerLimit = 10;$/;"	variable	line:615
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $handler = set_exception_handler('var_dump');$/;"	variable	line:618
+previousHandler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $previousHandler = $handler;$/;"	variable	line:628
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $handler = null;$/;"	variable	line:630
+handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $handler = $handler[0];$/;"	variable	line:643
+handlers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $handlers = array();$/;"	variable	line:644
+error	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $error = error_get_last();$/;"	variable	line:647
+trace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $trace = isset($error['backtrace']) ? $error['backtrace'] : null;$/;"	variable	line:663
+exception	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $exception = new OutOfMemoryException($handler->levels[$error['type']].': '.$error['message'], 0, $error['type'], $error['file'], $error['line'], 2, false, $trace);$/;"	variable	line:666
+exception	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $exception = new FatalErrorException($handler->levels[$error['type']].': '.$error['message'], 0, $error['type'], $error['file'], $error['line'], 2, true, $trace);$/;"	variable	line:668
+exitCode	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $exitCode = self::$exitCode;$/;"	variable	line:682
+stackErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function stackErrors()$/;"	function	line:700
+unstackErrors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    public static function unstackErrors()$/;"	function	line:712
+level	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $level = array_pop(self::$stackedErrorLevels);$/;"	variable	line:716
+errorReportingLevel	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $errorReportingLevel = error_reporting($level);$/;"	variable	line:719
+errors	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^            $errors = self::$stackedErrors;$/;"	variable	line:727
+getFatalErrorHandlers	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    protected function getFatalErrorHandlers()$/;"	function	line:743
+cleanTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^    private function cleanTrace($backtrace, $type, $file, $line, $throw)$/;"	function	line:752
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^        $lightTrace = $backtrace;$/;"	variable	line:754
+lightTrace	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/vendor/symfony/debug/ErrorHandler.php	/^                $lightTrace = array_slice($lightTrace, 1 + $i);$/;"	variable	line:758
+Handler	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^class Handler extends ExceptionHandler$/;"	class	line:9
+dontReport	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	variable	line:16
+dontReport	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^    protected $dontReport = [$/;"	variable	line:16
+report	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^    public function report(Exception $exception)$/;"	function	line:33
+render	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^    public function render($request, Exception $exception)$/;"	function	line:45
+unauthenticated	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^    protected function unauthenticated($request, AuthenticationException $exception)$/;"	function	line:57
+whoops	/Applications/XAMPP/xamppfiles/htdocs/php/Stephans-Portfolio/app/Exceptions/Handler.php	/^        $whoops = new \\Whoops\\Run;$/;"	variable	line:70
