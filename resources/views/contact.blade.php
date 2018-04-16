@@ -17,15 +17,15 @@
 @section('contact-form')
 
 
-
-      <div class="container">
+<section class="contact-section" id="contact">
+      <div class="container contact-form">
           <h1>Contact Me</h1>
           <div class="row">
-              <div class="col-md-6">
+              <div class="col-md-12">
                   @if (Session::has('flash_message'))
                     <div class="alert alert-success">{{Session::get('flash_message')}}</div>
                   @endif
-                  <form method="post" action="/contact">
+                  <form method="post" action="/contact" class="ajax">
                       {{csrf_field()}}
 
                       <div class="form-group">
@@ -64,11 +64,13 @@
                         @endif
                       </div>
 
-                      <button class="btn btn-primary">Submit</button>
+                      <button class="btn">Submit</button>
                   </form>
               </div>
             </div>
         </div>
+</section>
+
 
 @endsection
 

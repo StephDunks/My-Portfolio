@@ -24,7 +24,7 @@ $(window).on('scroll', function() {
   else {
       $('.desktop-nav').removeClass('black');
   }
-})
+});
 
 // Skills Section Slide on Scroll
 
@@ -45,12 +45,14 @@ $(document).ready(function(){
     $('html,body').animate({scrollTop:$path}, 1000);
  });
  $('#link3').click(function(){
-  $path=$("#my-story").offset().top;
+  $path=$("#my-story").offset().top - 80;
+    $('html,body').animate({scrollTop:$path}, 1000);
+ });
+ $('#link4').click(function(){
+  $path=$("#contact").offset().top - 80;
     $('html,body').animate({scrollTop:$path}, 1000);
  });
 });
-
-
 
 //Mobile Animations
 
@@ -73,22 +75,13 @@ $(document).ready(function(){
 // Skills Section Expirmental
 
 
-
-// Fade In Skills Animations
-// Trigger CSS animations on scroll.
-// Detailed explanation can be found at http://www.bram.us/2013/11/20/scroll-animations/
-
-// Looking for a version that also reverses the animation when
-// elements scroll below the fold again?
-// --> Check https://codepen.io/bramus/pen/vKpjNP
-
-// Portfolio Section filter
+// My Work Section Filter
 $(document).ready(function(){
 
     $(".button").click(function(){
       var value = $(this).attr("data-filter");
 
-
+      // If the user clicks all it will display all projects
       if (value == "all") {
         $(".filter").fadeIn(450);
         $(".portfolio").css('margin-bottom', 500);
@@ -104,7 +97,12 @@ $(document).ready(function(){
 
       $("ul .button").click(function(){
         $(this).addClass('active').siblings().removeClass('active');
-      })
+      });
 
-    })
+    });
+ });
+
+ // Modal Pop Up
+ $('#myModal').on('shown.bs.modal', function () {
+   $('#myInput').trigger('focus')
  })
