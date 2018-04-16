@@ -31,27 +31,31 @@ $(window).on('scroll', function() {
 // Smooth Scrolling Function Main Body
 $(document).ready(function(){
 
-  $('#link0').click(function(){
-   $path=$("#home").offset().top;
-     $('html,body').animate({scrollTop:$path}, 1000, 'swing');
-  });
-
- $('#link1').click(function(){
-  $path=$("#my-skills").offset().top - 100;
-    $('html,body').animate({scrollTop:$path}, 1000, 'swing');
- });
- $('#link2').click(function(){
-  $path=$("#my-work").offset().top - 80;
-    $('html,body').animate({scrollTop:$path}, 1000);
- });
- $('#link3').click(function(){
-  $path=$("#my-story").offset().top - 80;
-    $('html,body').animate({scrollTop:$path}, 1000);
- });
- $('#link4').click(function(){
-  $path=$("#contact").offset().top - 80;
-    $('html,body').animate({scrollTop:$path}, 1000);
- });
+ //  $('#link0').click(function(){
+ //   $path=$("#home").offset().top;
+ //     $('html,body').animate({scrollTop:$path}, 1000, 'swing');
+ //  });
+ //
+ // $('#link1').click(function(){
+ //  $path=$("#my-skills").offset().top - 100;
+ //    $('html,body').animate({scrollTop:$path}, 1000, 'swing');
+ // });
+ // $('#link2').click(function(){
+ //  $path=$("#my-work").offset().top - 80;
+ //    $('html,body').animate({scrollTop:$path}, 1000);
+ // });
+ // $('#link3').click(function(){
+ //  $path=$("#my-story").offset().top - 80;
+ //    $('html,body').animate({scrollTop:$path}, 1000);
+ // });
+ // $('#link4').click(function(){
+ //  $path=$("#contact").offset().top - 80;
+ //    $('html,body').animate({scrollTop:$path}, 1000);
+ // });
+ $("ul li a").click(function(e){
+   e.preventDefault();
+   $('html,body').animate({scrollTop:$(this.hash).offset().top - 80}, 1000);
+});
 });
 
 //Mobile Animations
@@ -90,7 +94,7 @@ $(document).ready(function(){
       else {
         $(".filter").not("."+value).hide(500);
         $(".filter").filter("."+value).show(600);
-        $(".portfolio").height(500).css('margin-bottom', 0);
+        $(".portfolio").height(500).css('margin-bottom', 500);
       }
 
 // Add Active Class To My Work Section

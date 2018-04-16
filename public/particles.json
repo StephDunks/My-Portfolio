@@ -4,6 +4,29 @@
       "value":80
     },
 
+    "color": {
+     "value": ["#6c5ce7", "#e7b25c", "#92e75c", "#33b1f8"]
+   },
+
+   "shape": {
+     "type": "circle",
+     "stroke": {
+       "width": 0,
+       "color": "#000000"
+     },
+     "polygon": {
+       "nb_sides": 15
+     }
+   },
+
+   "line_linked": {
+     "enable": true,
+     "distance": 110,
+     "color": "#33b1f8",
+     "opacity": 0.25,
+     "width": 2
+   },
+
     "opacity":{
       "value":0.5,
       "random":true,
@@ -14,7 +37,7 @@
   },
 
     "size":{
-      "value": 3,
+      "value": 5,
       "random":true,
       "anim":{
         "enable":true,
