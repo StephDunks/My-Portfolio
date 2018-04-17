@@ -833,15 +833,26 @@ html, body {
 ************************************/
 
 .my-story {
-  background:linear-gradient(to right, rgba(0, 0, 0, .9), rgba(67, 67, 67, 1)),url(/images/mystory2.jpg) no-repeat center center;
+  background:linear-gradient(to right, rgba(0, 0, 0, .7), rgba(67, 67, 67, 1)),url(/images/mystory2.jpg) no-repeat center center;
   background-size: cover;
-  height: 120vh;
-  // filter: gray; /* IE6-9 */
-  // -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-  // filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  height: 100%;
+  padding-bottom: 30px;
 
 
 }
+
+.picture {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.my-story img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
 
 .my-story h1 {
   font-size: 60px;
@@ -873,7 +884,7 @@ html, body {
     content: "";
     width: 15px;
     height: 100%;
-    background: #f4a24c;
+    background: #e7b25c;
     margin: 0 auto;
     position: absolute;
     top: -50%;
@@ -896,7 +907,7 @@ html, body {
     line-height: 105px;
     border-radius: 50%;
     background: #1d2124;
-    border: 12px solid #f4a24c;
+    border: 12px solid #e7b25c;
     margin: auto;
     font-size: 70px;
     font-weight: bold;
@@ -914,7 +925,7 @@ html, body {
     content: "";
     width: 0;
     height: 0;
-    border-right: 15px solid #f4a24c;
+    border-right: 15px solid #e7b25c;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
     margin: auto 0;
@@ -931,7 +942,7 @@ html, body {
     float: left;
     margin-right: 15px;
     font-size: 70px;
-    color: #f4a24c;
+    color: #e7b25c;
 }
 .main-timeline .description{
     font-size: 16px;
@@ -950,7 +961,7 @@ html, body {
 .main-timeline .year span{
     display: inline-block;
     padding: 12px 25px 12px 25px;
-    background: #f4a24c;
+    background: #e7b25c;
     border-radius: 0 50px 50px 0;
     font-size: 40px;
     font-weight: bold;
@@ -959,7 +970,7 @@ html, body {
 }
 .main-timeline .timeline:nth-child(2n) .timeline-icon:before{
     border-right: none;
-    border-left: 15px solid #f26f77;
+    border-left: 15px solid#6c5ce7;
     left: auto;
     right: -33px;
 }
@@ -975,20 +986,20 @@ html, body {
     left: 0;
 }
 .main-timeline .timeline:nth-child(2n) .year span{ border-radius: 50px 0 0 50px; }
-.main-timeline .timeline:nth-child(2n) .timeline-icon{ border-color: #f26f77; }
-.main-timeline .timeline:nth-child(2n) .icon{ color: #f26f77; }
+.main-timeline .timeline:nth-child(2n) .timeline-icon{ border-color:#6c5ce7; }
+.main-timeline .timeline:nth-child(2n) .icon{ color:#6c5ce7; }
 .main-timeline .timeline:nth-child(2n):before,
-.main-timeline .timeline:nth-child(2n) .year span{ background: #f26f77; }
-.main-timeline .timeline:nth-child(3n) .timeline-icon{ border-color: #13a3b5; }
-.main-timeline .timeline:nth-child(3n) .timeline-icon:before{ border-right-color: #13a3b5; }
-.main-timeline .timeline:nth-child(3n) .icon{ color: #13a3b5; }
+.main-timeline .timeline:nth-child(2n) .year span{ background:#6c5ce7; }
+.main-timeline .timeline:nth-child(3n) .timeline-icon{ border-color: #92e75c; }
+.main-timeline .timeline:nth-child(3n) .timeline-icon:before{ border-right-color: #92e75c; }
+.main-timeline .timeline:nth-child(3n) .icon{ color: #92e75c; }
 .main-timeline .timeline:nth-child(3n):before,
-.main-timeline .timeline:nth-child(3n) .year span{ background: #13a3b5; }
-.main-timeline .timeline:nth-child(4n) .timeline-icon{ border-color: #a6d050; }
-.main-timeline .timeline:nth-child(4n) .timeline-icon:before{ border-left-color: #a6d050; }
-.main-timeline .timeline:nth-child(4n) .icon{ color: #a6d050; }
+.main-timeline .timeline:nth-child(3n) .year span{ background: #92e75c; }
+.main-timeline .timeline:nth-child(4n) .timeline-icon{ border-color: #92e75c; }
+.main-timeline .timeline:nth-child(4n) .timeline-icon:before{ border-left-color: #92e75c; }
+.main-timeline .timeline:nth-child(4n) .icon{ color: #92e75c; }
 .main-timeline .timeline:nth-child(4n):before,
-.main-timeline .timeline:nth-child(4n) .year span{ background: #a6d050; }
+.main-timeline .timeline:nth-child(4n) .year span{ background: #92e75c; }
 @media only screen and (max-width: 767px){
     .main-timeline .timeline{
         padding-top: 95px;
@@ -1014,7 +1025,7 @@ html, body {
     .main-timeline .timeline:nth-child(2n) .timeline-icon:before,
     .main-timeline .timeline:nth-child(3n) .timeline-icon:before{
         border: 10px solid transparent;
-        border-top: 15px solid #f4a24c;
+        border-top: 15px solid #e7b25c;
         margin: 0 auto;
         position: absolute;
         top: auto;
@@ -1022,9 +1033,9 @@ html, body {
         bottom: -43px;
         right: 0;
     }
-    .main-timeline .timeline:nth-child(2n) .timeline-icon:before{ border-top-color: #f26f77; }
+    .main-timeline .timeline:nth-child(2n) .timeline-icon:before{ border-top-color:#6c5ce7; }
     .main-timeline .timeline:nth-child(3n) .timeline-icon:before{ border-top-color: #149cad; }
-    .main-timeline .timeline:nth-child(4n) .timeline-icon:before{ border-top-color: #a6d050; }
+    .main-timeline .timeline:nth-child(4n) .timeline-icon:before{ border-top-color: #92e75c; }
     .main-timeline .timeline-content,
     .main-timeline .timeline:nth-child(2n) .timeline-content{
         width: 100%;
@@ -1071,23 +1082,36 @@ html, body {
 .contact-section {
   // background: linear-gradient(to right, rgba(0, 0, 0, .4), rgba(67, 67, 67, .6)), url(/images/abstract-art.jpg) no-repeat center center ;
   // background-size: cover;
-  background: #6c5ce7;
-  height: 100vh;
+  background:linear-gradient(to right, rgba(0, 0, 0, .9), rgba(108, 92, 231, .9));
+  height: 100%;
+  padding-bottom: 20px;
   // background-position: fixed;
 }
 
 #map {
-  height: 300px;
+  height: 420px;
   width: 100%;
-  margin: 10px;
+  border-radius: 50px;
+  padding: 70px 50px 25px;
+  margin-top: 20px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
+
 }
 .contact-form {
   text-align: center;
   width: 100%;
+  padding: 70px 50px 25px;
+  margin-top: 20px;
+  background: linear-gradient(#2e3a6a,#2f0b45);
+  opacity: 0.85;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.6);
 }
 
+
+
 .contact-section label {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;

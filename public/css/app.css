@@ -9224,10 +9224,27 @@ div#hero-text {
 ************************************/
 
 .my-story {
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(#434343)), url(/images/mystory2.jpg) no-repeat center center;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), #434343), url(/images/mystory2.jpg) no-repeat center center;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.7)), to(#434343)), url(/images/mystory2.jpg) no-repeat center center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), #434343), url(/images/mystory2.jpg) no-repeat center center;
   background-size: cover;
-  height: 120vh;
+  height: 100%;
+  padding-bottom: 30px;
+}
+
+.picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.my-story img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
 }
 
 .my-story h1 {
@@ -9265,7 +9282,7 @@ div#hero-text {
   content: "";
   width: 15px;
   height: 100%;
-  background: #f4a24c;
+  background: #e7b25c;
   margin: 0 auto;
   position: absolute;
   top: -50%;
@@ -9291,7 +9308,7 @@ div#hero-text {
   line-height: 105px;
   border-radius: 50%;
   background: #1d2124;
-  border: 12px solid #f4a24c;
+  border: 12px solid #e7b25c;
   margin: auto;
   font-size: 70px;
   font-weight: bold;
@@ -9310,7 +9327,7 @@ div#hero-text {
   content: "";
   width: 0;
   height: 0;
-  border-right: 15px solid #f4a24c;
+  border-right: 15px solid #e7b25c;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   margin: auto 0;
@@ -9329,7 +9346,7 @@ div#hero-text {
   float: left;
   margin-right: 15px;
   font-size: 70px;
-  color: #f4a24c;
+  color: #e7b25c;
 }
 
 .main-timeline .description {
@@ -9352,7 +9369,7 @@ div#hero-text {
 .main-timeline .year span {
   display: inline-block;
   padding: 12px 25px 12px 25px;
-  background: #f4a24c;
+  background: #e7b25c;
   border-radius: 0 50px 50px 0;
   font-size: 40px;
   font-weight: bold;
@@ -9362,7 +9379,7 @@ div#hero-text {
 
 .main-timeline .timeline:nth-child(2n) .timeline-icon:before {
   border-right: none;
-  border-left: 15px solid #f26f77;
+  border-left: 15px solid #6c5ce7;
   left: auto;
   right: -33px;
 }
@@ -9388,50 +9405,50 @@ div#hero-text {
 }
 
 .main-timeline .timeline:nth-child(2n) .timeline-icon {
-  border-color: #f26f77;
+  border-color: #6c5ce7;
 }
 
 .main-timeline .timeline:nth-child(2n) .icon {
-  color: #f26f77;
+  color: #6c5ce7;
 }
 
 .main-timeline .timeline:nth-child(2n):before,
 .main-timeline .timeline:nth-child(2n) .year span {
-  background: #f26f77;
+  background: #6c5ce7;
 }
 
 .main-timeline .timeline:nth-child(3n) .timeline-icon {
-  border-color: #13a3b5;
+  border-color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(3n) .timeline-icon:before {
-  border-right-color: #13a3b5;
+  border-right-color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(3n) .icon {
-  color: #13a3b5;
+  color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(3n):before,
 .main-timeline .timeline:nth-child(3n) .year span {
-  background: #13a3b5;
+  background: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(4n) .timeline-icon {
-  border-color: #a6d050;
+  border-color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(4n) .timeline-icon:before {
-  border-left-color: #a6d050;
+  border-left-color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(4n) .icon {
-  color: #a6d050;
+  color: #92e75c;
 }
 
 .main-timeline .timeline:nth-child(4n):before,
 .main-timeline .timeline:nth-child(4n) .year span {
-  background: #a6d050;
+  background: #92e75c;
 }
 
 @media only screen and (max-width: 767px) {
@@ -9468,7 +9485,7 @@ div#hero-text {
   .main-timeline .timeline:nth-child(2n) .timeline-icon:before,
   .main-timeline .timeline:nth-child(3n) .timeline-icon:before {
     border: 10px solid transparent;
-    border-top: 15px solid #f4a24c;
+    border-top: 15px solid #e7b25c;
     margin: 0 auto;
     position: absolute;
     top: auto;
@@ -9478,7 +9495,7 @@ div#hero-text {
   }
 
   .main-timeline .timeline:nth-child(2n) .timeline-icon:before {
-    border-top-color: #f26f77;
+    border-top-color: #6c5ce7;
   }
 
   .main-timeline .timeline:nth-child(3n) .timeline-icon:before {
@@ -9486,7 +9503,7 @@ div#hero-text {
   }
 
   .main-timeline .timeline:nth-child(4n) .timeline-icon:before {
-    border-top-color: #a6d050;
+    border-top-color: #92e75c;
   }
 
   .main-timeline .timeline-content,
@@ -9523,23 +9540,37 @@ div#hero-text {
 ************************************/
 
 .contact-section {
-  background: #6c5ce7;
-  height: 100vh;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(rgba(108, 92, 231, 0.9)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(108, 92, 231, 0.9));
+  height: 100%;
+  padding-bottom: 20px;
 }
 
 #map {
-  height: 300px;
+  height: 420px;
   width: 100%;
-  margin: 10px;
+  border-radius: 50px;
+  padding: 70px 50px 25px;
+  margin-top: 20px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 .contact-form {
   text-align: center;
   width: 100%;
+  padding: 70px 50px 25px;
+  margin-top: 20px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2e3a6a), to(#2f0b45));
+  background: linear-gradient(#2e3a6a, #2f0b45);
+  opacity: 0.85;
+  border-radius: 50px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
 }
 
 .contact-section label {
-  font-size: 14px;
+  font-size: 18px;
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
