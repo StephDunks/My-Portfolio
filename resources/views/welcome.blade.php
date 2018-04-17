@@ -367,7 +367,7 @@
         @if (Session::has('flash_message'))
           <div class="alert alert-success">{{Session::get('flash_message')}}</div>
         @endif
-        <form method="post" action="/contact" class="ajax">
+        <form method="POST" action="/contact" class="ajax">
           {{csrf_field()}}
 
           <div class="form-group">
