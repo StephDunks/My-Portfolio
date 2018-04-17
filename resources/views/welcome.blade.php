@@ -259,7 +259,7 @@
         <div class="container">
           <div class="row picture">
             <div class="col-md-12">
-              <img src="images/alienpic.jpg">
+              <img src="images/emoji.png">
             </div>
           </div>
           <div class="row">
