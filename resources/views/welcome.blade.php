@@ -144,18 +144,30 @@
 
       <div class="container portfolio">
         <ul>
-          <li class="button all active" data-filter="all">All</li>
-          <li class="button" data-filter="websites">Websites</li>
-          <li class="button" data-filter="animations">Animations</li>
-          <li class="button" data-filter="videos">Video</li>
+          <li class="filter-button all active" data-filter="all">All</li>
+          <li class="filter-button" data-filter="websites">Websites</li>
+          <li class="filter-button" data-filter="animations">Animations</li>
+          <li class="filter-button" data-filter="videos">Video</li>
           <div style="clear: both;"></div>
         </ul>
 
         {{-- Modal Popup --}}
-        <div class="modal" id="modal">
+
+        <div class="modal" id="simpleModal">
           <div class="modal-content">
-            <span class="closeBtn">&times;</span>
-            <p>Hello.. I am a modal</p>
+            <div class="modal-header">
+                <span class="closeBtn">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p>Hello, I'm a modal</p>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+            </div>
+            <div class="modal-footer">
+                <h5>Modal Footer</h5>
+            </div>
+
+
           </div>
         </div>
 
@@ -166,7 +178,7 @@
             <h3 class="title">Landing Page</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
-            <a href="#" data-toggle="modal" data-target="#mymodal" class="btn">See Project</a>
+            <button id="modalBtn"class="button">See Project</button>
           </div>
         </div>
         <div class="box filter websites">

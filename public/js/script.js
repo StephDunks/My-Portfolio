@@ -1,4 +1,4 @@
-// alert("Connected!");
+alert("Connected!");
 
 
 // Navigation Active Class
@@ -82,31 +82,63 @@ $(document).ready(function(){
 // My Work Section Filter
 $(document).ready(function(){
 
-    $(".button").click(function(){
-      var value = $(this).attr("data-filter");
+  $(".filter-button").click(function(){
+    var value = $(this).attr("data-filter");
 
-      // If the user clicks all it will display all projects
-      if (value == "all") {
-        $(".filter").fadeIn(450);
-        $(".portfolio").css('margin-bottom', 500);
-      }
+    // If the user clicks all it will display all projects
+    if (value == "all") {
+      $(".filter").fadeIn(450);
+      $(".portfolio").css('margin-bottom', 500);
+    }
 
-      else {
-        $(".filter").not("."+value).hide(500);
-        $(".filter").filter("."+value).show(600);
-        $(".portfolio").height(500).css('margin-bottom', 500);
-      }
+    else {
+      $(".filter").not("."+value).hide(500);
+      $(".filter").filter("."+value).show(600);
+      $(".portfolio").height(500).css('margin-bottom', 500);
+    }
 
 // Add Active Class To My Work Section
 
-      $("ul .button").click(function(){
-        $(this).addClass('active').siblings().removeClass('active');
-      });
-
+    $("ul .button").click(function(){
+      $(this).addClass('active').siblings().removeClass('active');
     });
+
+  });
+
+
  });
 
  // Modal Pop Up
- $('#myModal').on('shown.bs.modal', function () {
-   $('#myInput').trigger('focus')
- })
+ $(document).ready(function(){
+ var modal = document.getElementById('simpleModal');
+ // Get open modal button
+ var modalBtn = document.getElementById('modalBtn');
+ // Get close button
+ var closeBtn = document.getElementsByClassName('closeBtn')[0];
+ // Listen for outside click
+ window.addEventListener('click', outsideClick);
+
+
+ // Listen for open click
+ modalBtn.addEventListener('click', openModal);
+ // Listen for open click
+ closeBtn.addEventListener('click', closeModal);
+
+ // function to open modal
+ function openModal(){
+   modal.style.display = 'block';
+ }
+
+ // function to close modal
+ function closeModal(){
+   modal.style.display = 'none';
+ }
+
+ // function to close modal
+ function outsideClick(e){
+   if(e.target == modal) {
+      modal.style.display = 'none';
+   }
+
+ }
+  });

@@ -26,10 +26,11 @@ html, body {
 
 .desktop-nav {
   position: fixed;
+  background: #000;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  height: 90px;
   box-sizing: border-box;
   transition: .5s;
   display: block;
@@ -40,7 +41,8 @@ html, body {
 
 .desktop-nav.black {
   background: rgba(0,0,0, .8);
-  height: 80px;
+  height: 70px;
+  padding: 5px;
 
 }
 
@@ -200,11 +202,9 @@ html, body {
   text-align: center;
   text-shadow: 1px 1px #000;
   opacity: 0.9;
-  position: absolute;
-  top: 230px;
-  right:0;
-  left: 0;
-  bottom: 0;
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
 
 }
 
@@ -828,6 +828,62 @@ html, body {
   display: none;
 }
 
+.modal {
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  // overflow: auto;
+  background-color: rgba(0,0,0,.5);
+}
+
+.modal-content {
+  background-color: #f4f4f4;
+  margin: 20% auto;
+  width: 70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,.2), 0 7px 20px 0 rgba(0,0,0, 0.17);
+  animation-name:modalopen;
+  animation-duration:2s;
+}
+.modal-header h2 {
+  margin: 0;
+}
+
+.modal-header {
+  background: #6c5ce7;
+  padding: 15px;
+  color: #fff;
+}
+
+.modal-body {
+  padding: 10px 20px;
+}
+
+.modal-footer {
+  background: #6c5ce7;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.closeBtn {
+  color: #fff;
+  float: right;
+  font-size: 30px;
+}
+
+.closeBtn:hover, .closeBtn:focus {
+  color: #000;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+@keyframes modalopen {
+  from{opacity: 0}
+  to {opacity: 1}
+}
 /************************************
  My Story Section
 ************************************/
@@ -1255,8 +1311,9 @@ footer ul li {
  }
 
  .hero-text {
-   position: absolute;
-   top: 120px;
+   position: relative;
+   top: 30vh;
+   transform: translateY(-50%);
  }
 
  .hero-text h1 {
