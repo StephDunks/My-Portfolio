@@ -277,6 +277,16 @@ html, body {
  My Skills Section
 ************************************/
 
+.test-skills {
+  position: relative;
+}
+
+.my-title {
+  position: absolute;
+}
+
+
+
 .block{
   display:flex;
   width:100vw;
@@ -364,20 +374,12 @@ html, body {
   transition: all 0.4s, all 0.4s ease;
 }
 
-// .development-side:hover {
-//   transform: scale(0.9);
-// }
-
 
 .design-side {
   background:linear-gradient(to right, rgba(0, 0, 0, .8), rgba(67, 67, 67, .8)),url('/images/design.jpg');
   transition: all 0.4s, all 0.4s ease;
 }
 
-// .design-side:hover {
-//   transform: scale(0.9);
-//
-// }
 
 .split-pane ul {
   margin-right: 30px;
@@ -413,6 +415,8 @@ html, body {
     padding-top: 2em;
     height: 100%;
   }
+
+
 }
 .split-pane > div {
   position: relative;
@@ -472,7 +476,7 @@ html, body {
   color: #fff;
 }
 
-#split-pane-or {
+#split-pane-heading {
   font-size: 2em;
   color: white;
   text-align: center;
@@ -484,48 +488,49 @@ html, body {
   // transform: translateY(-50%);
 }
 
-#split-pane-or h1 {
+#split-pane-heading h1 {
   font-size: 60px;
   margin-left:48px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
 }
 @media (max-width: 925px) {
-  #split-pane-or {
-    top:100%;
+  #split-pane-heading {
+    margin-top: -230px;
   }
 
-  #split-pane-or h1 {
+  #split-pane-heading h1 {
     font-size: 35px;
     margin-right: 18px;
     text-transform: uppercase;
     text-shadow: 2px 2px #000;
+    // margin-top: 300px;
   }
 }
-#split-pane-or > div img {
+#split-pane-heading > div img {
   height: 2.5em;
 }
 @media (max-width: 500px) {
-  #split-pane-or {
+  #split-pane-heading {
     position: absolute;
     top: -100%;
   }
 
-  #split-pane-or h1{
+  #split-pane-heading h1{
     margin-top: -180px;
   }
 
-  #split-pane-or > div img {
+  #split-pane-heading > div img {
     height:2em;
   }
 }
 @media(min-width: 500px) {
-  #split-pane-or {
+  #split-pane-heading {
     position: absolute;
     top: 100%;
     font-size: 10em;
   }
-  // #split-pane-or h1{
+  // #split-pane-heading h1{
   //   margin-top: -320px;
   // }
 }
@@ -832,17 +837,17 @@ html, body {
   position: fixed;
   z-index: 5;
   left: 0;
-  top: 0;
+  top: 20;
   height: 100%;
   width: 100%;
-  // overflow: auto;
+  overflow: auto;
   background-color: rgba(0,0,0,.5);
 }
 
 .modal-content {
   background-color: #f4f4f4;
-  margin: 20% auto;
-  width: 70%;
+  margin: 5% auto;
+  width: 50%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,.2), 0 7px 20px 0 rgba(0,0,0, 0.17);
   animation-name:modalopen;
   animation-duration:2s;
@@ -857,8 +862,30 @@ html, body {
   color: #fff;
 }
 
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: 200px;
+  line-height: 1;
+}
+
+
+
 .modal-body {
-  padding: 10px 20px;
+  padding:0;
+}
+
+.modal-body p {
+  padding: 15px;
+}
+
+// .carousel-inner {
+//   height: 300px;
+// }
+
+.modal-body img {
+  width: 100%;
 }
 
 .modal-footer {
@@ -1189,6 +1216,8 @@ html, body {
   border-right: 0px;
   border-left: 0px;
   background: transparent;
+  color: #fff;
+  font-size: 16px;
 }
 
 .contact-form
@@ -1292,6 +1321,7 @@ footer ul li {
    transition: .5s;
  }
 
+
  .mobile-nav ul {
    display: none;
    text-align: center;
@@ -1333,11 +1363,11 @@ footer ul li {
 
  }
 
- // .my-work h1 {
- //   font-size: 30px;
- //   text-shadow: 2px 2px #000;
- //   color: red;
- // }
+ .split-pane p {
+   font-size: 16px;
+   width: 90%;
+   margin-right: 45px;
+ }
 
  .bottom-border {
    border-bottom: 2px solid black;
@@ -1349,4 +1379,16 @@ footer ul li {
  }
 
 
+}
+
+@media(max-width: 500px) {
+  .split-pane p {
+    font-size: 16px;
+    width: 90%;
+    padding-left: 30px;
+  }
+
+  .split-pane button {
+    font-size: 1em;
+  }
 }

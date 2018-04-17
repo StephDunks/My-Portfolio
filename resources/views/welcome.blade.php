@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
+  <script type="text/javascript" src="{{ asset('js/app.js') }}"></script>
   <script type="text/javascript" src="https://cdn.jsdeliver.net/particles.js/2.0.0/particles.min.js"></script>
 
   <title>Stephan Duncan | Web Devloper</title>
@@ -83,17 +84,18 @@
   {{-- End Hero Section  --}}
 
   {{-- Skills Section --}}
+
+
   <div class="row">
-    <div class='split-pane col-xs-12 col-sm-6 design-side' id="design-side">
+    <div class='split-pane col-xs-12 col-sm-12 col-md-6 design-side' id="design-side">
       <div>
         <div class='text-content'>
           <i class="fas fa-paint-brush"></i>
           <div class='big'>Digital Media Design</div>
         </div>
-        <p>I can design for the web, illustrate and animate.
-          I also have a passion for video production as well.
-          Here are some of the programs i work with.
-        </p>
+        <p>I can create videos, design for the web and animate.</p>
+        <p>Here are some of the programs i work with.</p>
+
         <ul>
           <li>Adobe Photoshop</li>
           <li>Adobe Illustrator</li>
@@ -103,7 +105,7 @@
         <button class="btn">Let's Get Started</button>
       </div>
     </div>
-    <div class='split-pane col-xs-12 col-sm-6 development-side' id="design-side">
+    <div class='split-pane col-xs-12 col-sm-12 col-md-6 development-side' id="design-side">
       <div>
         <div class='text-content'>
           <i class="fas fa-code"></i>
@@ -123,12 +125,15 @@
       </div>
     </div>
 
-    <div id='split-pane-or'>
-      <div>
-        <h1 class="deepshadow" id="my-skills">My Skills<h1>
+
+      <div id='split-pane-heading'>
+        <div>
+          <h1 class="deepshadow" id="my-skills">My Skills<h1>
+          </div>
         </div>
       </div>
-    </div>
+
+
 
     {{--End Skills Section  --}}
 
@@ -154,21 +159,51 @@
         {{-- Modal Popup --}}
 
         <div class="modal" id="simpleModal">
+
           <div class="modal-content">
             <div class="modal-header">
                 <span class="closeBtn">&times;</span>
-                <h2>Modal Header</h2>
+                <h2>Project</h2>
             </div>
             <div class="modal-body">
-                <p>Hello, I'm a modal</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol><div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                     <img src="http://placehold.it/700x500/666/" alt="First slide">
+                  </div>
+
+                  <div class="item">
+                     <img src="http://placehold.it/400x400/666/" alt="Second slide">
+                  </div>
+
+                  <div class="item">
+                      <img src="http://placehold.it/400x400/666/" alt="Second slide">
+                  </div>
+
+                  {{-- Slider Controls!  --}}
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             </div>
             <div class="modal-footer">
-                <h5>Modal Footer</h5>
+                <i class="fab fa-github-square fa-3x"></i>
+                <h4>View On Github</h4>
+
             </div>
 
-
-          </div>
+        </div>
         </div>
 
 
@@ -178,7 +213,7 @@
             <h3 class="title">Landing Page</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
-            <button id="modalBtn"class="button">See Project</button>
+            <button id="modalBtn"class="btn">See Project</button>
           </div>
         </div>
         <div class="box filter websites">
