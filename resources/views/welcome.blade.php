@@ -112,7 +112,7 @@
           <div class='big'>Web Development</div>
         </div>
         <p>
-          I can create responsive and user friendly websites for your business.
+          I can create responsive and user friendly bootstrap for your business.
           Here are some of the languages & frameworks i build with.
         </p>
         <ul>
@@ -150,8 +150,8 @@
       <div class="container portfolio">
         <ul>
           <li class="filter-button all active" data-filter="all">All</li>
-          <li class="filter-button" data-filter="websites">Websites</li>
-          <li class="filter-button" data-filter="animations">Animations</li>
+          <li class="filter-button" data-filter="bootstrap">Bootstrap</li>
+          <li class="filter-button" data-filter="animations">Javascript</li>
           <li class="filter-button" data-filter="videos">Video</li>
           <div style="clear: both;"></div>
         </ul>
@@ -170,20 +170,15 @@
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
                 </ol><div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img src="http://placehold.it/700x500/666/" alt="First slide">
+                     <img src="/images/superfi-3.png" alt="First slide website-example">
                   </div>
 
                   <div class="item">
-                     <img src="http://placehold.it/400x400/666/" alt="Second slide">
+                     <img src="http://placehold.it/400x400/666/" alt="Second Slide website-example">
                   </div>
 
-                  <div class="item">
-                      <img src="http://placehold.it/400x400/666/" alt="Second slide">
-                  </div>
 
                   {{-- Slider Controls!  --}}
                   <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -208,23 +203,23 @@
 
 
         {{-- End Modal --}}
-        <div class="box filter websites">
+        <div class="box filter bootstrap bootstrap-project-1">
           <div class="box-content">
-            <h3 class="title">Landing Page</h3>
+            <h3 class="title">Company Website Project</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
             <button id="modalBtn"class="btn">See Project</button>
           </div>
         </div>
-        <div class="box filter websites">
+        <div class="box filter bootstrap bootstrap-project-2">
           <div class="box-content">
-            <h3 class="title">Landing Page</h3>
+            <h3 class="title">E-commerce Store</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
             <button class="btn" href="#">See Project</button>
           </div>
         </div>
-        <div class="box filter websites">
+        <div class="box filter bootstrap bootstrap-project-3">
           <div class="box-content">
             <h3 class="title">Landing Page</h3>
             <h4>Built With:</h4>
@@ -249,13 +244,13 @@
     <div class="mobile-portfolio">
       <div class="row">
         <div class="col-md-4">
-          <div class="box websites">Websites</div>
+          <div class="box bootstrap">bootstrap</div>
         </div>
         <div class="col-md-4">
-          <div class="box websites">Websites</div>
+          <div class="box bootstrap">bootstrap</div>
         </div>
         <div class="col-md-4">
-          <div class="box websites">Websites</div>
+          <div class="box bootstrap">bootstrap</div>
         </div>
       </div>
       <div class="row">
