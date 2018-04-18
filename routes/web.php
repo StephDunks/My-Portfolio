@@ -19,8 +19,8 @@ Route::get('/test', function () {
     return view('test');
 });
 
-// Route::post('/contact', 'ContactController@store');
+Route::post('/contact', 'ContactController@store');
 
 
-Route::get('/contact', 'ContactController@show');
-Route::post('/contact',  'ContactController@mailToAdmin');
+Route::get('/', 'ContactController@show');
+Route::post('/',  'ContactController@mailToAdmin');
