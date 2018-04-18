@@ -111,22 +111,31 @@ $(document).ready(function(){
  // Modal Pop Up
  $(document).ready(function(){
  var modal = document.getElementById('simpleModal');
+ var modal2 = document.getElementById('simpleModal2');
  // Get open modal button
  var modalBtn = document.getElementById('modalBtn');
+ var modalBtn2 = document.getElementById('modalBtn2');
  // Get close button
  var closeBtn = document.getElementsByClassName('closeBtn')[0];
+ var closeBtn2 = document.getElementsByClassName('closeBtn2')[0];
  // Listen for outside click
  window.addEventListener('click', outsideClick);
 
 
  // Listen for open click
  modalBtn.addEventListener('click', openModal);
+ modalBtn2.addEventListener('click', openModal2);
  // Listen for open click
  closeBtn.addEventListener('click', closeModal);
+ closeBtn2.addEventListener('click', closeModal2);
 
  // function to open modal
  function openModal(){
    modal.style.display = 'block';
+ }
+
+ function openModal2(){
+   modal2.style.display = 'block';
  }
 
  // function to close modal
@@ -134,11 +143,19 @@ $(document).ready(function(){
    modal.style.display = 'none';
  }
 
+ function closeModal2(){
+   modal2.style.display = 'none';
+ }
+
  // function to close modal
  function outsideClick(e){
    if(e.target == modal) {
       modal.style.display = 'none';
    }
+   if(e.target == modal2) {
+      modal2.style.display = 'none';
+   }
+
 
  }
 
@@ -169,4 +186,4 @@ $(document).ready(function(){
       $(".right").click(function(){
           $("#myCarousel").carousel("next");
       });
-  });  
+  });

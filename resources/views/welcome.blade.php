@@ -163,20 +163,26 @@
           <div class="modal-content">
             <div class="modal-header">
                 <span class="closeBtn">&times;</span>
-                <h2>Project</h2>
+                <h2>Company Website Project</h2>
+                <p>HTML5/CSS/Bootstrap</p>
             </div>
             <div class="modal-body">
               <div id="myCarousel" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                   <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol><div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img src="/images/superfi-3.png" alt="First slide website-example">
+                     <img src="/images/superfi-3.png" alt="First slide website-example" class="cover">
                   </div>
 
                   <div class="item">
-                     <img src="http://placehold.it/400x400/666/" alt="Second Slide website-example">
+                     <img src="/images/superfi-2.png" alt="Second Slide website-example">
+                  </div>
+
+                  <div class="item">
+                     <img src="/images/superfi-1.png" alt="Second Slide website-example">
                   </div>
 
 
@@ -190,17 +196,65 @@
                     </a>
                   </div>
                 </div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>I decided i wanted to build a website ficitous company that provides extremly fast wifi. This was a bootstrap project that we did in the web developer course. It really helped me to get more familiar with bootstrap and i learned how to structure pages a lot better. Bootstrap is pretty easy to use as well you can get a responsive layout up and running in no time. </p>
             </div>
             <div class="modal-footer">
-                <i class="fab fa-github-square fa-3x"></i>
-                <h4>View On Github</h4>
+                <i class="fab fa-github-square fa-3x"></i></a>
+                <a href="https://github.com/StephDunks/Assignment-4/" target="_blank"><h4>View On Github</h4></a>
 
             </div>
 
         </div>
         </div>
 
+
+        {{-- End Modal --}}
+
+        {{-- Modal Popup --}}
+
+        <div class="modal modal2" id="simpleModal2">
+
+          <div class="modal-content">
+            <div class="modal-header">
+                <span class="closeBtn2">&times;</span>
+                <h2>E-commerce Website Project</h2>
+                <p>HTML5/CSS/Bootstrap</p>
+            </div>
+            <div class="modal-body">
+              <div id="myCarousel2" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel2" data-slide-to="1"></li>
+                </ol><div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                     <img src="/images/watchhub-3.png" alt="First slide website-example" class="cover">
+                  </div>
+
+                  <div class="item">
+                     <img src="/images/watchhub-2.png" alt="Second Slide website-example">
+                  </div>
+
+
+                  {{-- Slider Controls!  --}}
+                  <a class="left carousel-control" href="#myCarousel2" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                    <a class="right carousel-control" href="#myCarousel2" role="button" data-slide="next">
+                      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <p>I decided i wanted to build a website for a ficitous company that provides extremly fast wifi. This was a bootstrap project that we did in the web developer course. It really helped me to get more familiar with bootstrap and i learned how to structure pages a lot better. Bootstrap is pretty easy to use as well you can get a responsive layout up and running in no time. </p>
+            </div>
+            <div class="modal-footer">
+                <i class="fab fa-github-square fa-3x"></i></a>
+                <a href="https://github.com/StephDunks/Assignment-4/" target="_blank"><h4>View On Github</h4></a>
+
+            </div>
+
+        </div>
+        </div>
 
         {{-- End Modal --}}
         <div class="box filter bootstrap bootstrap-project-1">
@@ -216,7 +270,7 @@
             <h3 class="title">E-commerce Store</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
-            <button class="btn" href="#">See Project</button>
+            <button id="modalBtn2"class="btn">See Project</button>
           </div>
         </div>
         <div class="box filter bootstrap bootstrap-project-3">
@@ -224,7 +278,7 @@
             <h3 class="title">Landing Page</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
-            <button class="btn" href="#">See Project</button>
+            <button id="modalBtn3"class="btn">See Project</button>
           </div>
         </div>
         <div class="box filter animations">Animation</div>
@@ -243,14 +297,25 @@
 
     <div class="mobile-portfolio">
       <div class="row">
-        <div class="col-md-4">
-          <div class="box bootstrap">bootstrap</div>
+        <div class="col-12 col-sm-6 col-sm-6 col-md-6">
+          <div class="box bootstrap bootstrap-project-1">
+            <div class="box-content">
+              <h3 class="title">Landing Page</h3>
+              <h4>Built With:</h4>
+              <span class="post">HTML5/CSS3/BOOTSTRAP</span>
+              <button id="modalBtn3"class="btn">See Project</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <div class="box bootstrap">bootstrap</div>
-        </div>
-        <div class="col-md-4">
-          <div class="box bootstrap">bootstrap</div>
+        <div class="col-12 col-sm-6 col-md-6">
+          <div class="box bootstrap bootstrap-project-2">
+            <div class="box-content">
+              <h3 class="title">E-commerce Store</h3>
+              <h4>Built With:</h4>
+              <span class="post">HTML5/CSS3/BOOTSTRAP</span>
+              <button id="modalBtn2"class="btn">See Project</button>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row">
