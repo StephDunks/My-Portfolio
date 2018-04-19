@@ -310,7 +310,7 @@
           <div class="box-content">
             <h3 class="title">Wired.com Remake</h3>
             <h4>Built With:</h4>
-            <span class="post">HTML5/CSS3/JQuery/PHP</span>
+            <span class="post">HTML5/CSS3/PHP</span>
             <button id="modalBtn3"class="btn">See Project</button>
           </div>
         </div>
