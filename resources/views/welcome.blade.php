@@ -93,8 +93,8 @@
           <i class="fas fa-paint-brush"></i>
           <div class='big'>Digital Media Design</div>
         </div>
-        <p>I can create videos, design for the web and animate.</p>
-        <p>Here are some of the programs i work with.</p>
+        <p>I can create videos, design for the web and animate.
+          Here are some of the programs i work with.</p>
 
         <ul>
           <li>Adobe Photoshop</li>
@@ -175,15 +175,15 @@
                   <li data-target="#myCarousel" data-slide-to="2"></li>
                 </ol><div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img src="/images/superfi-3.png" alt="First slide website-example" class="cover">
+                     <img src="/images/superfi-3.jpg" alt="First slide website-example" class="cover">
                   </div>
 
                   <div class="item">
-                     <img src="/images/superfi-2.png" alt="Second Slide website-example">
+                     <img src="/images/superfi-2.jpg" alt="Second Slide website-example">
                   </div>
 
                   <div class="item">
-                     <img src="/images/superfi-1.png" alt="Second Slide website-example">
+                     <img src="/images/superfi-1.jpg" alt="Second Slide website-example">
                   </div>
 
 
@@ -228,11 +228,11 @@
                   <li data-target="#myCarousel2" data-slide-to="1"></li>
                 </ol><div class="carousel-inner" role="listbox">
                   <div class="item active">
-                     <img src="/images/watchhub-3.png" alt="First slide website-example" class="cover">
+                     <img src="/images/watchhub-3.jpg" alt="First slide website-example" class="cover">
                   </div>
 
                   <div class="item">
-                     <img src="/images/watchhub-2.png" alt="Second Slide website-example">
+                     <img src="/images/watchhub-2.jpg" alt="Second Slide website-example">
                   </div>
 
 
@@ -246,7 +246,7 @@
                     </a>
                   </div>
                 </div>
-                <p>I decided i wanted to build a website for a ficitous company that provides extremly fast wifi. This was a bootstrap project that we did in the web developer course. It really helped me to get more familiar with bootstrap and i learned how to structure pages a lot better. Bootstrap is pretty easy to use as well you can get a responsive layout up and running in no time. </p>
+                <p>The goal for this project was to design an e-commerce store with bootstrap. I decided to do a smart watch store because that is product that i use everyday. I went with a simple color shcheme of blue and white. I found most of my images from pexels.com and the product images i picked up from alibaba. If i decided to build a real store i would probably end up using php and mysql</p>
             </div>
             <div class="modal-footer">
                 <i class="fab fa-github-square fa-3x"></i></a>
@@ -276,7 +276,7 @@
         </div>
         <div class="box filter bootstrap bootstrap-project-3">
           <div class="box-content">
-            <h3 class="title">Landing Page</h3>
+            <h3 class="title">BeatByDre Landing Page</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/BOOTSTRAP</span>
             <button id="modalBtn3"class="btn">See Project</button>
@@ -298,13 +298,32 @@
             <button id="modalBtn3"class="btn">See Project</button>
           </div>
         </div>
-        <div class="box filter php php-project-1">PHP</div>
+        <div class="box filter javascript javascript-project-3">
+          <div class="box-content">
+            <h3 class="title">Microwave Project</h3>
+            <h4>Built With:</h4>
+            <span class="post">HTML5/CSS3/Javascript</span>
+            <button id="modalBtn3"class="btn">See Project</button>
+          </div>
+        </div>
+        <div class="box filter php php-project-1">
+          <div class="box-content">
+            <h3 class="title">Wired.com Remake</h3>
+            <h4>Built With:</h4>
+            <span class="post">HTML5/CSS3/JQuery/PHP</span>
+            <button id="modalBtn3"class="btn">See Project</button>
+          </div>
+        </div>
         <div class="box filter php">PHP</div>
-        <div class="box filter php">PHP</div>
-        <div class="box filter javascript">Animation</div>
-        <div class="box filter videos">Video</div>
-        <div class="box filter videos">Video</div>
-        <div class="box filter videos">Video</div>
+        <div class="videobox filter videos video-project-1">
+            <iframe width="280" height="300" src="https://www.youtube.com/embed/_dcViW-Yap0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videobox filter videos">
+          <iframe width="280" height="300" src="https://www.youtube.com/embed/vfMGzUgJcZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div class="videobox videobox filter videos">
+          <iframe width="280" height="300" src="https://www.youtube.com/embed/D_eMDAXSYC0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
 
       </div>
     </section>
@@ -383,7 +402,7 @@
                   <div class="timeline-content">
                     <i class="icon fas fa-graduation-cap"></i>
                     <p class="description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus, mollis rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non commodo pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem pharetra. Donec ut lacus enim. Sed tempor interdum elementum. Donec consequat interdum consequat. Donec scelerisque sodales nisi, eu condimentum justo consequat et.
+                      At the beginning of this year i enrolled in the fast track web developer program at SAIT because i wanted to get a real job in the industry. The program was quite in depth and i learned a lot in such a short period of time. My goal in the next year is to get a job a full stack developer and i believe SAIT was the perfect starting point for me. There is still so much i want to learn and i plan on taking some more online course to get a better grip on programming in general.
                     </p>
                   </div>
                   <div class="year"><span>2018</span></div>
@@ -393,7 +412,7 @@
                   <div class="timeline-content">
                     <i class="icon fas fa-video"></i>
                     <p class="description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus, mollis rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non commodo pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem pharetra. Donec ut lacus enim. Sed tempor interdum elementum. Donec consequat interdum consequat. Donec scelerisque sodales nisi, eu condimentum justo consequat et.
+                      This was the year that i decided to start a small video production company with a friend of mine. The film industry was something that always interested me so that’s why I decided to go that route. I mainly focused on doing music videos, weddings and commercials. While I was doing video work I still continued to learn to program through sites like freecodecamp.org and udacity. I started to research places that taught web development in Calgary and thats when i thought about taking the web developer course at SAIT.
                     </p>
                   </div>
                   <div class="year"><span>2017</span></div>
@@ -403,7 +422,7 @@
                   <div class="timeline-content">
                     <i class="icon fab fa-codepen"></i>
                     <p class="description">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut at laoreet risus, mollis rhoncus felis. Nulla consectetur pretium lacinia. Morbi pharetra, quam non commodo pulvinar, dui diam laoreet purus, vitae commodo ipsum lorem nec lacus. Etiam et malesuada dolor. Integer consequat mauris in orci lobortis, non dictum sem pharetra. Donec ut lacus enim. Sed tempor interdum elementum. Donec consequat interdum consequat. Donec scelerisque sodales nisi, eu condimentum justo consequat et.
+                      2016 was when i really started considering getting into app development and web development. I played around with android studio a bit and built some basic apps using tutorials from udemy and youtube. I also built a few basic games within unity as well. I still wasn’t to sure if I was ready to take programming on as a career path at that time so I continued to do it as a hobby while I worked.
                     </p>
                   </div>
                   <div class="year"><span>2016</span></div>

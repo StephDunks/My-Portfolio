@@ -8575,9 +8575,13 @@ div#hero-text {
   color: #fff;
 }
 
-.hero-text a {
+.hero-text a,
+.hero-text a:visited {
   color: #92e75c;
-  font-weight: bold;
+}
+
+.hero-text a:hover {
+  color: #fff;
 }
 
 .btn {
@@ -9201,6 +9205,34 @@ div#hero-text {
   }
 }
 
+.container .videobox {
+  height: 300px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 2em;
+  float: left;
+  margin: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-transform: uppercase;
+  -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+          box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  position: relative;
+  margin: 5px;
+  background: #fff;
+}
+
+.videobox:before,
+.videobox:after {
+  content: "";
+  background: transparent;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
 .container .box {
   width: 31%;
   height: 300px;
@@ -9219,23 +9251,27 @@ div#hero-text {
      object-fit: contain;
 }
 
+.vimeo {
+  background: #000;
+}
+
 .bootstrap-project-1 {
-  background: url("/images/superfi-3.png") no-repeat;
+  background: url("/images/superfi-3.jpg") no-repeat;
   background-size: cover;
 }
 
 .bootstrap-project-2 {
-  background: url("/images/watchhub-3.png") no-repeat;
+  background: url("/images/watchhub-3.jpg") no-repeat;
   background-size: cover;
 }
 
 .bootstrap-project-3 {
-  background: url("/images/watchhub-3.png") no-repeat;
+  background: url("/images/beatsbydre-project.jpg") no-repeat center center;
   background-size: cover;
 }
 
 .javascript-project-1 {
-  background: url("/images/javascript-colorgame.png") no-repeat center center;
+  background: url("/images/javascript-colorgame.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -9244,9 +9280,14 @@ div#hero-text {
   background-size: cover;
 }
 
-.videos {
-  background-size: contain;
-  background: #f5f5f5;
+.javascript-project-3 {
+  background: url("/images/microwave-project.png") no-repeat center center;
+  background-size: 300px 300px;
+}
+
+.php-project-1 {
+  background: url("/images/wired-php-1.jpg") no-repeat;
+  background-size: cover;
 }
 
 .mobile-portfolio {
@@ -9737,19 +9778,18 @@ button:focus,
 }
 
 .contact-form button {
-  font-weight: 800;
-  background: none;
-  border: 1px solid white;
-  border-radius: 5px;
-  width: 10em;
-  padding: 0.7em;
-  font-size: 1.2em;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-  color: #4FBC7B;
-  display: inline-block;
-  cursor: pointer;
+  border: 1px solid #fff;
+  color: #fff;
+  background: transparent;
+  font-size: 20px;
+  width: 200px;
+}
+
+.contact-form button:hover {
+  background: #92e75c;
+  color: #fff;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
 .contact-section h1 {

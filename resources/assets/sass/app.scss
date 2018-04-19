@@ -239,9 +239,13 @@ html, body {
   color: #fff;
 }
 
-.hero-text a {
+.hero-text a,
+.hero-text a:visited  {
   color: #92e75c;
-  font-weight: bold;
+}
+
+.hero-text a:hover {
+  color: #fff;
 }
 
 .btn {
@@ -261,6 +265,10 @@ html, body {
   color: #fff;
   transition: .5s;
 }
+
+
+
+
 
 .fa-angle-down {
   font-size: 25px;
@@ -802,6 +810,54 @@ html, body {
 @media only screen and (max-width:990px){
     .box{ margin-bottom: 30px; }
 }
+
+// Video Box
+
+.container .videobox {
+  // width: 31%;
+  height: 300px;
+  text-align: center;
+  color: rgba(255,255,255, .5);
+  font-size: 2em;
+  float: left;
+  margin: 5px;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  position: relative;
+  margin: 5px;
+  background:#fff;
+}
+// .videobox{
+//
+// }
+
+// .videobox iframe{
+//     width: 300px;
+//     height: 300px;
+// }
+
+
+.videobox:before,
+.videobox:after{
+    content: "";
+    background: transparent;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transition: all 0.3s ease-in-out;
+}
+
+// .videobox .videobox-content{
+//     padding-top: 25%;
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     opacity: 0;
+//     z-index: 2;
+//     transition: all 0.2s ease 0.3s;
+// }
+
 // End Expirmental
 
 .container .box {
@@ -821,26 +877,31 @@ html, body {
   object-fit: contain;
 }
 
+.vimeo {
+  background: #000;
+}
+
+
 
 
 .bootstrap-project-1 {
-  background:url('/images/superfi-3.png') no-repeat;
+  background:url('/images/superfi-3.jpg') no-repeat;
   background-size: cover;
 }
 
 
 .bootstrap-project-2 {
-  background:url('/images/watchhub-3.png') no-repeat;
+  background:url('/images/watchhub-3.jpg') no-repeat;
   background-size: cover;
 }
 
 .bootstrap-project-3 {
-  background:url('/images/watchhub-3.png') no-repeat;
+  background:url('/images/beatsbydre-project.jpg') no-repeat center center;
   background-size: cover;
 }
 
 .javascript-project-1 {
-  background:url('/images/javascript-colorgame.png')no-repeat center center;
+  background:url('/images/javascript-colorgame.jpg')no-repeat center center;
   background-size: cover;
 }
 
@@ -849,13 +910,22 @@ html, body {
   background-size: cover;
 }
 
-
-
-
-.videos {
-  background-size: contain;
-  background: #f5f5f5;
+.javascript-project-3 {
+  background:url('/images/microwave-project.png')no-repeat center center;
+  background-size: 300px 300px;
 }
+
+.php-project-1 {
+  background:url('/images/wired-php-1.jpg')no-repeat;
+  background-size:cover;
+
+}
+
+
+// .videos {
+//   background-size: contain;
+//   background: #f5f5f5;
+// }
 
 .mobile-portfolio {
   display: none;
@@ -1259,24 +1329,19 @@ html, body {
     border-bottom: 3px solid #4FBC7B;
   }
 
+
 .contact-form button {
-  font-weight:800;
-  background: none;
-  border: 1px solid white;
-  -moz-border-radius: 5px;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  width: 10em;
-  padding: 0.7em;
-  font-size: 1.2em;
-  -moz-transition: all 0.2s ease-out;
-  -o-transition: all 0.2s ease-out;
-  -webkit-transition: all 0.2s ease-out;
-  transition: all 0.2s ease-out;
-  text-decoration: none;
-  color: #4FBC7B;
-  display: inline-block;
-  cursor: pointer;
+  border: 1px solid #fff;
+  color:#fff;
+  background: transparent;
+  font-size: 20px;
+  width: 200px;
+}
+
+.contact-form button:hover {
+  background: #92e75c;
+  color: #fff;
+  transition: .5s;
 }
 
 .contact-section h1 {
