@@ -1,4 +1,4 @@
-{{-- <!doctype html>
+<!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
         <meta charset="utf-8">
@@ -26,79 +26,12 @@
           border-color: red;
         }
         </style>
-    </head> --}}
-    <body id="page-top">
-
-
-      <!-- Desktop Navigation -->
-      <header>
-        <div class="container">
-            <nav class="desktop-nav">
-               <div class="logo">
-                 <img src="logo.png">
-               </div>
-               <ul>
-                  <li><a href="#home" id="link0">Home</a></li>
-                  <li><a href="#my-skills" id="link1">My Skills</a></li>
-                  <li><a href="#my-work" id="link2">My Work</a></li>
-                  <li><a href="#my-story" id="link3">My Story</a></li>
-                  <li><a href="#contact" id="link4">Contact</a></li>
-               </ul>
-            </nav>
-        </div>
-
-
-          {{-- End Desktop Navigation  --}}
-
-          {{-- Mobile Navigation  --}}
-
-          <nav class="mobile-nav">
-              <div class="toggle">
-                  <i class="fas fa-bars fa-2x" aria-hidden="true"></i>
-              </div>
-              <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">My Skills</a></li>
-                  <li><a href="#">My Work</a></li>
-                  <li><a href="#">My Story</a></li>
-                  <li><a href="#">Contact</a></li>
-              </ul>
-          </nav>
-      </header>
-
-{{-- End Mobile Navigation --}}
-
-     @yield('content')
-      @yield('contact-form')
-
-      <div class="footer-section">
-          <footer class="text-center">
-              <div class="container">
-                  <ul class="list-inline mb-5">
-                    <li class="list-inline-item">
-                        <a class="social-link" href="#">
-                        <i class="fab fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link" href="#">
-                        <i class="fab fa-github-square"></i>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <a class="social-link" href="#">
-                        <i class="fab fa-bitbucket"></i>
-                        </a>
-                    </li>
-                  </ul>
-                  <p class="text-muted small mb-0">Copyright &copy; Stephan Duncan 2018</p>
-              </div>
-          </footer>
-      </div>
-          <script type="text/javascript" src="{{ asset('js/script.js') }}"></script>
-        <script>
-          particlesJS.load('particles-js','particles.json', function(){
-            console.log('partcles.json loaded...');
-          });
-        </script>
-  </body>
+    </head>
+    <body>
+      @yield('content')
+      <script>
+        particlesJS.load('particles-js','particles.json', function(){
+          console.log('partcles.json loaded...');
+        });
+      </script>
+    </body>

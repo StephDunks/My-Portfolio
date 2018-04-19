@@ -29,8 +29,9 @@ html, body {
   background: #000;
   top: 0;
   left: 0;
+  margin-top: -10px;
   width: 100%;
-  height: 90px;
+  height: 60px;
   box-sizing: border-box;
   transition: .5s;
   display: block;
@@ -76,7 +77,7 @@ html, body {
   list-style: 80px;
   color: #fff;
   font-size: 18px;
-  padding: 5px 20px;
+  padding: 5px 15px;
   text-decoration: none;
   text-transform: uppercase;
   transition: .5s;
@@ -833,23 +834,27 @@ html, body {
   background-size: cover;
 }
 
-.animations {
-  background-size: contain;
-  background: #f5f5f5;
+.bootstrap-project-3 {
+  background:url('/images/watchhub-3.png') no-repeat;
+  background-size: cover;
 }
+
+.javascript-project-1 {
+  background:url('/images/javascript-colorgame.png')no-repeat center center;
+  background-size: cover;
+}
+
+.javascript-project-2 {
+  background:url('/images/javascript-rps.png')no-repeat center;
+  background-size: cover;
+}
+
+
+
 
 .videos {
   background-size: contain;
   background: #f5f5f5;
-}
-
-.games {
-  background-size: contain;
-  background: #f5f5f5;
-}
-
-.apps {
-  background:#2ecc71;
 }
 
 .mobile-portfolio {
@@ -1310,9 +1315,141 @@ footer ul li {
 }
 
 
+// Pricing Page Styles
 
+.pricing-background {
+  background: #f3f3f3;
+}
 
+.pricing-background h1 {
+  text-align: center;
+  font-size: 45px;
+  color: #000;
+  text-transform: uppercase;
+}
 
+.pricing-bottom {
+  background: #e7b25c;
+  height: 50px;
+}
+
+.pricingTable{
+    text-align: center;
+    background: #fff;
+    margin: 0 -15px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover{
+    transform: scale(1.05);
+    z-index: 1;
+}
+.pricingTable .pricingTable-header{
+    padding: 40px 0;
+    background: #f5f6f9;
+    border-radius: 10px 10px 50% 50%;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable:hover .pricingTable-header{
+    background: #ff9624;
+}
+.pricingTable .pricingTable-header i{
+    font-size: 50px;
+    color: #858c9a;
+    margin-bottom: 10px;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable .price-value{
+    font-size: 35px;
+    color: #ff9624;
+    transition: all 0.5s ease 0s;
+}
+.pricingTable .month{
+    display: block;
+    font-size: 14px;
+    color: #cad0de;
+}
+.pricingTable:hover .pricingTable-header i,
+.pricingTable:hover .price-value,
+.pricingTable:hover .month{
+    color: #fff;
+}
+.pricingTable .heading{
+    font-size: 24px;
+    color: #ff9624;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.pricingTable .pricing-content ul{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+.pricingTable .pricing-content ul li{
+    line-height: 30px;
+    color: #a7a8aa;
+}
+.pricingTable .pricingTable-signup a{
+    display: inline-block;
+    font-size: 15px;
+    color: #fff;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background: #ffa442;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+}
+.pricingTable .pricingTable-signup a:hover{
+    box-shadow: 0 0 10px #ffa442;
+}
+.pricingTable.blue .price-value,
+.pricingTable.blue .heading{
+    color: #4b64ff;
+}
+.pricingTable.blue:hover .pricingTable-header,
+.pricingTable.blue .pricingTable-signup a{
+    background: #4b64ff;
+}
+.pricingTable.blue .pricingTable-signup a:hover{
+    box-shadow: 0 0 10px #4b64ff;
+}
+.pricingTable.red .price-value,
+.pricingTable.red .heading{
+    color: #ff4b4b;
+}
+.pricingTable.red:hover .pricingTable-header,
+.pricingTable.red .pricingTable-signup a{
+    background: #ff4b4b;
+}
+.pricingTable.red .pricingTable-signup a:hover{
+    box-shadow: 0 0 10px #ff4b4b;
+}
+.pricingTable.green .price-value,
+.pricingTable.green .heading{
+    color: #40c952;
+}
+.pricingTable.green:hover .pricingTable-header,
+.pricingTable.green .pricingTable-signup a{
+    background: #40c952;
+}
+.pricingTable.green .pricingTable-signup a:hover{
+    box-shadow: 0 0 10px #40c952;
+}
+.pricingTable.blue:hover .price-value,
+.pricingTable.red:hover .price-value,
+.pricingTable.green:hover .price-value{
+    color: #fff;
+}
+@media screen and (max-width: 990px){
+    .pricingTable{ margin: 0 0 20px 0; }
+}
+/********************************
+Media Queries
+***********************************/
 
 @media(max-width: 768px) {
 
@@ -1414,4 +1551,23 @@ footer ul li {
   .split-pane button {
     font-size: 1em;
   }
+
+  .my-work h1 {
+    font-size: 45px;
+  }
+
+  .my-story h1 {
+    font-size: 45px;
+  }
+}
+
+
+.pricing-hero {
+  background: #e7b25c;
+  height: 500px;
+}
+
+.pricing-hero h1 {
+  color: #fff;
+  font-size: 50px;
 }

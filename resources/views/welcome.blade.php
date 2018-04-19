@@ -151,7 +151,8 @@
         <ul>
           <li class="filter-button all active" data-filter="all">All</li>
           <li class="filter-button" data-filter="bootstrap">Bootstrap</li>
-          <li class="filter-button" data-filter="animations">Javascript</li>
+          <li class="filter-button" data-filter="javascript">Javascript</li>
+          <li class="filter-button" data-filter="php">PHP</li>
           <li class="filter-button" data-filter="videos">Video</li>
           <div style="clear: both;"></div>
         </ul>
@@ -281,9 +282,26 @@
             <button id="modalBtn3"class="btn">See Project</button>
           </div>
         </div>
-        <div class="box filter animations">Animation</div>
-        <div class="box filter animations">Animation</div>
-        <div class="box filter animations">Animation</div>
+        <div class="box filter javascript javascript-project-1">
+          <div class="box-content">
+            <h3 class="title">Game</h3>
+            <h4>Built With:</h4>
+            <span class="post">HTML5/CSS3/Javascript</span>
+            <button id="modalBtn3"class="btn">See Project</button>
+          </div>
+        </div>
+        <div class="box filter javascript javascript-project-2">
+          <div class="box-content">
+            <h3 class="title">Game</h3>
+            <h4>Built With:</h4>
+            <span class="post">HTML5/CSS3/Javascript</span>
+            <button id="modalBtn3"class="btn">See Project</button>
+          </div>
+        </div>
+        <div class="box filter php php-project-1">PHP</div>
+        <div class="box filter php">PHP</div>
+        <div class="box filter php">PHP</div>
+        <div class="box filter javascript">Animation</div>
         <div class="box filter videos">Video</div>
         <div class="box filter videos">Video</div>
         <div class="box filter videos">Video</div>
@@ -330,13 +348,13 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <div class="box animations">Animations</div>
+            <div class="box javascript">javascript</div>
           </div>
           <div class="col-md-4">
-            <div class="box animations">Animations</div>
+            <div class="box javascript">javascript</div>
           </div>
           <div class="col-md-4">
-            <div class="box animations">Animations</div>
+            <div class="box javascript">javascript</div>
           </div>
         </div>
       </div>
