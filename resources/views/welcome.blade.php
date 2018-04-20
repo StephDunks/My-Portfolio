@@ -102,7 +102,7 @@
           <li>Adobe Premiere Pro</li>
           <li>Adobe After Effects</li>
         </ul>
-        <button class="btn"><a href="/pricing">Let's Get Started</a></button>
+        <button class="btn"><a href="/pricing">See Pricing</a></button>
       </div>
     </div>
     <div class='split-pane col-xs-12 col-sm-12 col-md-6 development-side' id="design-side">
@@ -121,7 +121,7 @@
           <li class="highlight">PHP/Laravel</li>
           <li class="highlight">Wordpress/Drupal</li>
         </ul>
-        <button class="btn"><a href="/pricing">Let's Get Started</a></button>
+        <button class="btn"><a href="/pricing">See Pricing</a></button>
       </div>
     </div>
 
