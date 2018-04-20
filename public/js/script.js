@@ -3,7 +3,7 @@
 
 // Navigation Active Class
 $(document).ready(function() {
-  $('ul li a').click(function(e) {
+  $('ul li .nav-links').click(function(e) {
       var $this = $(this);
       $this.parent().siblings().removeClass('active').end().addClass('active');
       e.preventDefault();
@@ -39,6 +39,11 @@ $(document).ready(function(){
  $("ul li a").click(function(e){
    e.preventDefault();
    $('html,body').animate({scrollTop:$(this.hash).offset().top - 60}, 1000);
+});
+
+$(".mobile-nav ul li a").click(function(e){
+  e.preventDefault();
+  $('html,body').animate({scrollTop:$(this.hash).offset().top - 60}, 1000);
 });
 });
 

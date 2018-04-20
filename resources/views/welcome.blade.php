@@ -197,7 +197,9 @@
                     </a>
                   </div>
                 </div>
-                <p>I decided i wanted to build a website ficitous company that provides extremly fast wifi. This was a bootstrap project that we did in the web developer course. It really helped me to get more familiar with bootstrap and i learned how to structure pages a lot better. Bootstrap is pretty easy to use as well you can get a responsive layout up and running in no time. </p>
+                <p>I decided i wanted to build a website ficitous company that provides extremly fast wifi. This was a bootstrap project that we did in the web developer course. It really helped me to get more familiar with bootstrap and i learned how to structure pages a lot better. Bootstrap is pretty easy to use as well you can get a responsive layout up and running in no time.</p>
+
+                <p>The next time i take on a project like this i think i would spend more time in the planning phase. The site looks good but i feel like it could use some more polish in certain areas. Bootstrap seems to be the go to these days when it comes to building beautfil layouts quickly and i plan to do some more research on it</p>
             </div>
             <div class="modal-footer">
                 <i class="fab fa-github-square fa-3x"></i></a>
@@ -284,15 +286,15 @@
         </div>
         <div class="box filter javascript javascript-project-1">
           <div class="box-content">
-            <h3 class="title">Game</h3>
+            <h3 class="title">Color Game</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/Javascript</span>
-            <button id="modalBtn3"class="btn">See Project</button>
+            <button id="modalBtn3"class="btn"><a href="http://elegant-thompson-bee19e.bitballoon.com/" target="-_blank">See Project</a></button>
           </div>
         </div>
         <div class="box filter javascript javascript-project-2">
           <div class="box-content">
-            <h3 class="title">Game</h3>
+            <h3 class="title">Rock Paper Scissors Game</h3>
             <h4>Built With:</h4>
             <span class="post">HTML5/CSS3/Javascript</span>
             <button id="modalBtn3"class="btn">See Project</button>
@@ -314,7 +316,14 @@
             <button id="modalBtn3"class="btn">See Project</button>
           </div>
         </div>
-        <div class="box filter php">PHP</div>
+        <div class="box filter php php-project-2">
+          <div class="box-content">
+            <h3 class="title">Personal Project</h3>
+            <h4>Built With:</h4>
+            <span class="post">HTML5/CSS3/PHP</span>
+            <button id="modalBtn3"class="btn">See Project</button>
+          </div>
+        </div>
         <div class="videobox filter videos video-project-1">
             <iframe width="280" height="300" src="https://www.youtube.com/embed/_dcViW-Yap0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>

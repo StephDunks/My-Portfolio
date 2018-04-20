@@ -8446,7 +8446,6 @@ body {
   background: #6c5ce7;
   text-decoration: none;
   border-radius: 2px;
-  padding: 0;
 }
 
 .menu-icon {
@@ -8560,6 +8559,7 @@ body {
   text-align: center;
   text-shadow: 1px 1px #000;
   opacity: 0.9;
+  font-size: 50px;
   position: relative;
   top: 50vh;
   -webkit-transform: translateY(-50%);
@@ -9306,6 +9306,11 @@ div#hero-text {
   background-size: cover;
 }
 
+.javascript-project-1 a {
+  color: #92e75c;
+  text-decoration: none;
+}
+
 .javascript-project-2 {
   background: url("/images/javascript-rps.png") no-repeat center;
   background-size: cover;
@@ -9318,6 +9323,11 @@ div#hero-text {
 
 .php-project-1 {
   background: url("/images/wired-php-1.jpg") no-repeat;
+  background-size: cover;
+}
+
+.php-project-2 {
+  background: url("/images/career-connection-php.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -9383,6 +9393,10 @@ div#hero-text {
   padding: 10px;
   color: #fff;
   text-align: center;
+}
+
+.modal-footer a {
+  color: #fff;
 }
 
 .closeBtn,
@@ -9854,6 +9868,10 @@ footer ul li {
   font-size: 40px;
 }
 
+footer ul li a {
+  color: #92e75c;
+}
+
 footer .email {
   color: #fff;
   font-size: 20px;
@@ -10150,11 +10168,27 @@ Media Queries
     font-size: 1em;
   }
 
+  .hero-text h1 {
+    font-size: 35px;
+  }
+
+  .hero-text h2 {
+    font-size: 25px;
+  }
+
+  .hero-text h3 {
+    font-size: 25px;
+  }
+
   .my-work h1 {
     font-size: 45px;
   }
 
   .my-story h1 {
+    font-size: 45px;
+  }
+
+  .contact-section h1 {
     font-size: 45px;
   }
 }
