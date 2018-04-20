@@ -72,7 +72,7 @@ $(document).ready(function(){
     // If the user clicks all it will display all projects
     if (value == "all") {
       $(".filter").fadeIn(450);
-      $(".portfolio").css('margin-bottom', 500);
+      $(".portfolio").css('margin-bottom', 850);
     }
 
     else {

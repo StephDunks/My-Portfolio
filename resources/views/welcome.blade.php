@@ -36,15 +36,15 @@
   <header>
     <div class="container">
       <nav class="desktop-nav">
-        <div class="logo">
-          <img src="logo.png">
-        </div>
+
         <ul>
-          <li><a href="#home" id="link0">Home</a></li>
-          <li><a href="#my-skills" id="link1">My Skills</a></li>
-          <li><a href="#my-work" id="link2">My Work</a></li>
-          <li><a href="#my-story" id="link3">My Story</a></li>
-          <li><a href="#contact" id="link4">Contact</a></li>
+          <li class="logo"><span class="first-initial">S</span><span class="second-initial">D</span></li>
+          {{-- <li class="logo"><img src="/images/stephans-logo.png"></li> --}}
+          <li class="nav-links"><a href="#contact" id="link4">Contact</a></li>
+          <li class="nav-links"><a href="#my-story" id="link3">My Story</a></li>
+          <li class="nav-links"><a href="#my-work" id="link2">My Work</a></li>
+          <li class="nav-links"><a href="#my-skills" id="link1">My Skills</a></li>
+          <li class="nav-links"><a href="#home" id="link0">Home</a></li>
         </ul>
       </nav>
     </div>
@@ -93,7 +93,7 @@
           <i class="fas fa-paint-brush"></i>
           <div class='big'>Digital Media Design</div>
         </div>
-        <p>I can create videos, design for the web and animate.
+        <p>I specialize in video production but i can also design and create animations.
           Here are some of the programs i work with.</p>
 
         <ul>
@@ -102,7 +102,7 @@
           <li>Adobe Premiere Pro</li>
           <li>Adobe After Effects</li>
         </ul>
-        <button class="btn">Let's Get Started</button>
+        <button class="btn"><a href="/pricing">Let's Get Started</a></button>
       </div>
     </div>
     <div class='split-pane col-xs-12 col-sm-12 col-md-6 development-side' id="design-side">
@@ -112,7 +112,7 @@
           <div class='big'>Web Development</div>
         </div>
         <p>
-          I can create responsive and user friendly bootstrap for your business.
+          I can create responsive and user friendly websites from concept to completion.
           Here are some of the languages & frameworks i build with.
         </p>
         <ul>
@@ -121,7 +121,7 @@
           <li class="highlight">PHP/Laravel</li>
           <li class="highlight">Wordpress/Drupal</li>
         </ul>
-        <button class="btn">Let's Get Started</button>
+        <button class="btn"><a href="/pricing">Let's Get Started</a></button>
       </div>
     </div>
 
@@ -356,15 +356,32 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-md-4">
-          <div class="box videos">Videos</div>
+        <div class="col-12">
+          <div class="box filter bootstrap bootstrap-project-3">
+            <div class="box-content">
+              <h3 class="title">BeatByDre Landing Page</h3>
+              <h4>Built With:</h4>
+              <span class="post">HTML5/CSS3/BOOTSTRAP</span>
+              <button id="modalBtn3"class="btn">See Project</button>
+            </div>
+          </div>
         </div>
-        <div class="col-md-4">
-          <div class="box videos">Videos</div>
+     </div>
+     <div class="row">
+       <div class="col-12">
+         <div class="videobox filter videos video-project-1">
+             <iframe width="100%" height="300" src="https://www.youtube.com/embed/_dcViW-Yap0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+         </div>
+       </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="videobox filter videos">
+          <iframe width="280" height="300" src="https://www.youtube.com/embed/vfMGzUgJcZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
-        <div class="col-md-4">
-          <div class="box videos">Videos</div>
-        </div>
+      </div>
+    </div>
+
         <div class="row">
           <div class="col-md-4">
             <div class="box javascript">javascript</div>
