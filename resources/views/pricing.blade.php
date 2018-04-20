@@ -143,5 +143,31 @@
 </div>
   </div>
 
+
+{{-- Footer Section --}}
+  <footer class="text-center">
+    <div class="container">
+        <p class="email">Email:stephan.duncan90@gmail.com</p>
+      <ul class="list-inline mb-5">
+        <li class="list-inline-item">
+          <a class="social-link" href="#">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link" href="#">
+            <i class="fab fa-github-square"></i>
+          </a>
+        </li>
+        <li class="list-inline-item">
+          <a class="social-link" href="#">
+            <i class="fab fa-bitbucket"></i>
+          </a>
+        </li>
+      </ul>
+      <p class="text-muted small mb-0">Copyright &copy; Stephan Duncan 2018</p>
+    </div>
+  </footer>
+
 </body>
 </html>

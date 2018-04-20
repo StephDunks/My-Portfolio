@@ -377,20 +377,48 @@
     <div class="row">
       <div class="col-12">
         <div class="videobox filter videos">
-          <iframe width="280" height="300" src="https://www.youtube.com/embed/vfMGzUgJcZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/vfMGzUgJcZw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="videobox videobox filter videos">
+          <iframe width="100%" height="300" src="https://www.youtube.com/embed/D_eMDAXSYC0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         </div>
       </div>
     </div>
 
-        <div class="row">
-          <div class="col-md-4">
-            <div class="box javascript">javascript</div>
+      <div class="row">
+        <div class="col-12">
+          <div class="box filter javascript javascript-project-1">
+            <div class="box-content">
+              <h3 class="title">Game</h3>
+              <h4>Built With:</h4>
+              <span class="post">HTML5/CSS3/Javascript</span>
+              <button id="modalBtn3"class="btn">See Project</button>
+            </div>
           </div>
-          <div class="col-md-4">
-            <div class="box javascript">javascript</div>
+        </div>
+        <div class="col-12">
+          <div class="box filter javascript javascript-project-2">
+            <div class="box-content">
+              <h3 class="title">Game</h3>
+              <h4>Built With:</h4>
+              <span class="post">HTML5/CSS3/Javascript</span>
+              <button id="modalBtn3"class="btn">See Project</button>
+            </div>
           </div>
-          <div class="col-md-4">
-            <div class="box javascript">javascript</div>
+        </div>
+          <div class="col-12">
+            <div class="box filter javascript javascript-project-3">
+              <div class="box-content">
+                <h3 class="title">Microwave Project</h3>
+                <h4>Built With:</h4>
+                <span class="post">HTML5/CSS3/Javascript</span>
+                <button id="modalBtn3"class="btn">See Project</button>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -538,20 +566,20 @@
 {{-- <div class="footer-section"> --}}
 <footer class="text-center">
   <div class="container">
-      <p>Personal Email:stephan.duncan90@gmail.com</p>
+      <p class="email">Email:stephan.duncan90@gmail.com</p>
     <ul class="list-inline mb-5">
       <li class="list-inline-item">
-        <a class="social-link" href="#">
+        <a class="social-link" href="www.linkedin.com/in/stephan-duncan" target="_blank">
           <i class="fab fa-linkedin"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="social-link" href="#">
+        <a class="social-link" href="https://github.com/StephDunks" target="_blank">
           <i class="fab fa-github-square"></i>
         </a>
       </li>
       <li class="list-inline-item">
-        <a class="social-link" href="#">
+        <a class="social-link" href="https://bitbucket.org/StephDunks/" target="_blank">
           <i class="fab fa-bitbucket"></i>
         </a>
       </li>

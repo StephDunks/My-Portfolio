@@ -8525,6 +8525,13 @@ body {
   font-size: 20px;
 }
 
+.mobile-nav ul li a:hover {
+  color: #fff;
+  background: #6c5ce7;
+  text-decoration: none;
+  border-radius: 2px;
+}
+
 #particles-js {
   background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.9)), to(#434343)), url(/images/abstract-art.jpg) no-repeat center center;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.9), #434343), url(/images/abstract-art.jpg) no-repeat center center;
@@ -8821,7 +8828,7 @@ div#hero-text {
 }
 
 .split-pane button:hover,
-.split-pane a.button:hover {
+.split-pane a:hover {
   text-decoration: none;
   background-color: #92e75c;
   color: #fff;
@@ -8841,12 +8848,12 @@ div#hero-text {
 }
 
 .design-side.split-pane button:hover,
-.split-pane a.button:hover {
+.split-pane a:hover {
   color: #fff;
 }
 
 .development-side.split-pane button:hover,
-.split-pane a.button:hover {
+.split-pane a:hover {
   color: #fff;
 }
 
@@ -9847,6 +9854,11 @@ footer ul li {
   font-size: 40px;
 }
 
+footer .email {
+  color: #fff;
+  font-size: 20px;
+}
+
 .pricing-background {
   background: #f3f3f3;
 }
@@ -9887,6 +9899,7 @@ footer ul li {
   text-align: center;
   background: #fff;
   margin: 0 -15px;
+  margin-bottom: 100px;
   -webkit-box-shadow: 0 0 10px #ababab;
           box-shadow: 0 0 10px #ababab;
   padding-bottom: 40px;
@@ -10083,8 +10096,8 @@ Media Queries
 
   .mobile-nav ul.expand {
     display: block;
-    -webkit-transition: .2s;
-    transition: .2s;
+    -webkit-transition: 1s;
+    transition: 1s;
   }
 
   .hero-text {
